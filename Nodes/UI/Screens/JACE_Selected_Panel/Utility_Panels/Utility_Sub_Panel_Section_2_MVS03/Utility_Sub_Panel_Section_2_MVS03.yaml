@@ -69,6 +69,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Utility/Utility_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -256,6 +261,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"MVS_03_1F1"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: Outgoing_MVS03_F3
   Id: g=fbbcefd697d92f82f796f2b572e75fde
   Supertype: Individual_Panel_Layout1
@@ -324,6 +333,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Utility/Utility_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -511,6 +525,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"MVS_03_OG_F3"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: Outgoing_MVS03_F4
   Id: g=97ca2045191b4779510bcfa8667b6ebf
   Supertype: Individual_Panel_Layout1
@@ -579,6 +597,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Utility/Utility_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -766,6 +789,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"MVS_03_OG_F4"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: Outgoing_MVS03_F5
   Id: g=9e9865357a03ee3c89bc65e9085187a3
   Supertype: Individual_Panel_Layout1
@@ -834,6 +861,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Utility/Utility_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1021,3 +1053,7 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"MVS_03_OG_F5"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}

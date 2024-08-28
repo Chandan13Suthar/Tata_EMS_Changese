@@ -68,7 +68,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2091,6 +2096,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_INCOMER2
   Id: g=ab2993978cd2cbf81b7f24d3a54074d4
   Supertype: BaseScreen
@@ -2158,7 +2167,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4181,6 +4195,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG1_IN1_SPARE
   Id: g=aad98ce198c540a61e68ecb13c0b1b43
   Supertype: BaseScreen
@@ -4248,7 +4266,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6271,6 +6294,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG2_IN1_UTILITY
   Id: g=e3459872780f3fa51df04e02ef1ef7b1
   Supertype: BaseScreen
@@ -6338,7 +6365,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8361,6 +8393,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG3_IN1_STAMPING
   Id: g=ce569de773b0f34442d1efa8c880dbe2
   Supertype: BaseScreen
@@ -8428,7 +8464,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -10451,6 +10492,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG4_IN1_TCF
   Id: g=cd5151f08b8feeb77e18001654fb57b0
   Supertype: BaseScreen
@@ -10518,7 +10563,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12541,6 +12591,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG5_IN1_BODYSHOP
   Id: g=5e6fda3755e0c159e70b5bf6ba460fb3
   Supertype: BaseScreen
@@ -12608,7 +12662,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -14631,6 +14690,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG6_IN1_ENGINESHOP
   Id: g=8c022abc6df506f08548913a7610498c
   Supertype: BaseScreen
@@ -14698,7 +14761,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -16721,6 +16789,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG7_IN1_PAINTSHOP
   Id: g=741bb0a476c23091e1bd4cc5ccdb9e8d
   Supertype: BaseScreen
@@ -16788,7 +16860,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -18811,6 +18888,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG8_IN2_PAINTSHOP
   Id: g=a5743e1002633fa6eb392ed9c453f6fb
   Supertype: BaseScreen
@@ -18878,7 +18959,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -20901,6 +20987,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG9_IN2_ENGINESHOP
   Id: g=f2ba3e2ae64b1432619019bf30769bfd
   Supertype: BaseScreen
@@ -20968,7 +21058,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -22991,6 +23086,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG10_IN2_BODYSHOP
   Id: g=640e8876b7f5ad23e682738ffbc01e38
   Supertype: BaseScreen
@@ -23058,7 +23157,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -25081,6 +25185,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG11_IN2_TCF
   Id: g=520ea8f908ea90e8b0c91d58b39b0f43
   Supertype: BaseScreen
@@ -25148,7 +25256,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -27171,6 +27284,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG12_IN2_STAMPING
   Id: g=87952388036ded82ba5c528f69249411
   Supertype: BaseScreen
@@ -27238,7 +27355,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -29261,6 +29383,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG13_IN2_UTILITY
   Id: g=c5ee0daf73e74730dfffcd10d2329122
   Supertype: BaseScreen
@@ -29328,7 +29454,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -31351,6 +31482,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG14_IN2_SPARE
   Id: g=41d5703ec13323b603c1fd1dfe7b39ad
   Supertype: BaseScreen
@@ -31418,7 +31553,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -33441,6 +33581,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG15_IN2_SPP
   Id: g=1f5985a7b938102c7ff45e0666e3121b
   Supertype: BaseScreen
@@ -33508,7 +33652,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -35531,6 +35680,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_OG16_IN1_SPP
   Id: g=7a213a12e1615bfa3f3ec9609400f9ea
   Supertype: BaseScreen
@@ -35598,7 +35751,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -37621,6 +37779,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_DG_PANEL_EB_IN1
   Id: g=0d2c09e7fd3fd969d318a91d3a8e46d0
   Supertype: BaseScreen
@@ -37688,7 +37850,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -39711,6 +39878,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
 - Name: J1_DG_PANEL_DG_IN2
   Id: g=bc843aa721aee55c6ac2342d8785bd5e
   Supertype: BaseScreen
@@ -39778,7 +39949,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -41801,3 +41977,7 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"33KV Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"

@@ -68,7 +68,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2091,6 +2096,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_MVS_01_IN_F2
   Id: g=c1ee501c01d3cc22a36630dd4e436061
   Supertype: BaseScreen
@@ -2158,7 +2167,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4181,6 +4195,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_MVS_01_OG_F4
   Id: g=9876b1ab3ea1f04464acc28012ee00f4
   Supertype: BaseScreen
@@ -4248,7 +4266,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6271,6 +6294,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_MVS_01_OG_F5
   Id: g=2ddd4941f40653cd2dba5baa95c7147e
   Supertype: BaseScreen
@@ -6338,7 +6365,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8361,6 +8393,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_MVS_01_OG_F6
   Id: g=34677e0e51aac47d3b753b0157f3214d
   Supertype: BaseScreen
@@ -8428,7 +8464,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -10451,6 +10492,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_MVS_01_OG_F7
   Id: g=1564be2e4905f062101759d8daca360e
   Supertype: BaseScreen
@@ -10518,7 +10563,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12541,6 +12591,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_MVS_01_OG_F8
   Id: g=245675c76585c3eed14bdfe830338e78
   Supertype: BaseScreen
@@ -12608,7 +12662,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -14631,6 +14690,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_01_INF1
   Id: g=c3a66e10d9e5ca9a2173ff043f13b8d5
   Supertype: BaseScreen
@@ -14698,7 +14761,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -16721,6 +16789,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_01_OG_3F
   Id: g=fad07909564d6919f00a4eb560b16412
   Supertype: BaseScreen
@@ -16788,7 +16860,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -18811,6 +18888,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_02_INF1
   Id: g=dfef57fce2cd8be20137ad91e2505d21
   Supertype: BaseScreen
@@ -18878,7 +18959,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -20901,6 +20987,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_02_OG_2F
   Id: g=a2a57a99d0919be492cc07c647371d70
   Supertype: BaseScreen
@@ -20968,7 +21058,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -22991,6 +23086,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_02_OG_3F1
   Id: g=1305dac057792b412f013cc7cfb11047
   Supertype: BaseScreen
@@ -23058,7 +23157,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -25081,6 +25185,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_02_OG_3F2
   Id: g=610182797e2d153578993d12b67b453b
   Supertype: BaseScreen
@@ -25148,7 +25256,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -27171,6 +27284,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_02_OG_4F1
   Id: g=0f47cf71c211d6d15bdf14c5461445f6
   Supertype: BaseScreen
@@ -27238,7 +27355,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -29261,6 +29383,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_02_OG_4F2
   Id: g=885a3abe529d7b26083a84d23ac7dfbe
   Supertype: BaseScreen
@@ -29328,7 +29454,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -31351,6 +31482,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_02_OG_5F1
   Id: g=8e0e44e3b31c772baea06d71425a2875
   Supertype: BaseScreen
@@ -31418,7 +31553,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -33441,6 +33581,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_03_INF1
   Id: g=8490fde67700b196c6a5273f6dc7c7e6
   Supertype: BaseScreen
@@ -33508,7 +33652,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -35531,6 +35680,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_04_INF1
   Id: g=2a302b011d4e98bc0435fa6e213caff0
   Supertype: BaseScreen
@@ -35598,7 +35751,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -37621,6 +37779,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"
 - Name: J7_STP_SWB_05_INF1
   Id: g=cd731543bcb270c1318e8a428fa781d5
   Supertype: BaseScreen
@@ -37688,7 +37850,12 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -39711,3 +39878,7 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Stamping"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Stamping/Stamping_Station"

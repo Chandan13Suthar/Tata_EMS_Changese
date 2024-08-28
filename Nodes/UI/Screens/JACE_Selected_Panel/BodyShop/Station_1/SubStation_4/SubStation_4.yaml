@@ -69,6 +69,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Body Shop/BodyShop_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -256,6 +261,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BDY_SWB_08"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: BDY_SWB_08_OG_F1
   Id: g=78c85cf8d20a9963f754f7fe82d545f1
   Supertype: Individual_Panel_Layout1
@@ -324,6 +333,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Body Shop/BodyShop_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -511,6 +525,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BDY_SWB_08_OG_F1"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: BDY_SWB_08_OG_F2
   Id: g=c0811d830d23d712266c1e5980f473ab
   Supertype: Individual_Panel_Layout1
@@ -579,6 +597,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Body Shop/BodyShop_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -766,6 +789,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BDY_SWB_08_OG_F2"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: BDY_SWB_08_OG_F3
   Id: g=e06670cdcb856b638d09e6da91b3d0b8
   Supertype: Individual_Panel_Layout1
@@ -834,6 +861,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Body Shop/BodyShop_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1021,6 +1053,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BDY_SWB_08_OG_F3"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: BDY_SWB_08_OG_F4
   Id: g=9aa48feaf1e42bb1e37195daf80aa4d0
   Supertype: Individual_Panel_Layout1
@@ -1089,6 +1125,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Body Shop/BodyShop_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1276,6 +1317,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BDY_SWB_08_OG_F4"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: BDY_SWB_08_OG_F5
   Id: g=1fdd23c749c3a07c4298bb66257033fc
   Supertype: Individual_Panel_Layout1
@@ -1344,6 +1389,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Body Shop/BodyShop_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1531,6 +1581,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BDY_SWB_08_OG_F5"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: BDY_SWB_08_OG_F6
   Id: g=93622cdcf57d5534527cb04a5072d5a8
   Supertype: Individual_Panel_Layout1
@@ -1599,6 +1653,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Body Shop/BodyShop_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1791,6 +1850,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BDY_SWB_08_OG_F6"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: BDY_SWB_08_OG_F7
   Id: g=35cdda67c8001d55445ced49571eaa83
   Supertype: Individual_Panel_Layout1
@@ -1859,6 +1922,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Body Shop/BodyShop_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2046,6 +2114,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BDY_SWB_08_OG_F7"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: BDY_SWB_08_OG_F8
   Id: g=47fbd3ad1de73793c8feb4220f38660f
   Supertype: Individual_Panel_Layout1
@@ -2114,6 +2186,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Body Shop/BodyShop_Station"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2301,3 +2378,7 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BDY_SWB_08_OG_F8"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}

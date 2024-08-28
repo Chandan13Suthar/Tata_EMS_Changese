@@ -71,6 +71,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -258,6 +263,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BodyShop 1 Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: BodyShop_2_Station
   Id: g=908c98d44334a0feb82e81fa414ac1bc
   Supertype: Individual_Panel_Layout1
@@ -326,6 +335,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -513,3 +527,7 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"BodyShop 2 Station"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}

@@ -69,6 +69,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -256,6 +261,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 1"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_2
   Id: g=73ca89271a5d51bbe788f98445b9ea71
   Supertype: Individual_Panel_Layout1
@@ -324,6 +333,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -511,6 +525,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 2"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_3
   Id: g=b8dc35cd4687c401d53e25feabae5ebe
   Supertype: Individual_Panel_Layout1
@@ -579,6 +597,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -766,6 +789,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 1"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_4
   Id: g=56466530287c02852abb850a6f08d1a1
   Supertype: Individual_Panel_Layout1
@@ -834,6 +861,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1021,6 +1053,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 2"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_5
   Id: g=c6f25f741f8ca97c333c5474c2e11086
   Supertype: Individual_Panel_Layout1
@@ -1089,6 +1125,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1276,6 +1317,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 1"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_6
   Id: g=3d952884dd06590397d790174eba0bf5
   Supertype: Individual_Panel_Layout1
@@ -1344,6 +1389,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1531,6 +1581,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 2"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_7
   Id: g=ecbc39f56977a5ecd06e4567133db453
   Supertype: Individual_Panel_Layout1
@@ -1599,6 +1653,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1786,6 +1845,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 1"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_8
   Id: g=3d20fcff68a227911478fbe35e08f849
   Supertype: Individual_Panel_Layout1
@@ -1854,6 +1917,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2041,6 +2109,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 2"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_9
   Id: g=3ca991602b0beef4d733c30dd8c2c4e3
   Supertype: Individual_Panel_Layout1
@@ -2109,6 +2181,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2296,6 +2373,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 1"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_10
   Id: g=ce8e827c185bfe9f371c17ce32cdfe11
   Supertype: Individual_Panel_Layout1
@@ -2364,6 +2445,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2551,6 +2637,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 2"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
 - Name: SPP_Panel_11
   Id: g=dd59f9372416ab70c96516af13f07a47
   Supertype: Individual_Panel_Layout1
@@ -2619,6 +2709,11 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Value: "/Objects/Tata_EMS_Changese/UI/Screens/RealTimePanels/Breaker_Capacity"
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../../../Screen name@Pointer"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2806,3 +2901,7 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"SPP Shop 2"}
+  - Name: Screen name
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
