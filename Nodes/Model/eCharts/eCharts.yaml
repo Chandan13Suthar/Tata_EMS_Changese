@@ -435,12 +435,5 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- File: eCharts1/eCharts1.yaml
-- File: eCharts2/eCharts2.yaml
-- File: eCharts3/eCharts3.yaml
 - File: eCharts4/eCharts4.yaml
 - File: eCharts5/eCharts5.yaml
-- File: eCharts6/eCharts6.yaml
-- File: eCharts9/eCharts9.yaml
-- File: eCharts10/eCharts10.yaml
-- File: eCharts11/eCharts11.yaml
