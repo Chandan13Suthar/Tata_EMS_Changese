@@ -68,7 +68,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/FeaturesNavigationScreen"
+                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -2158,7 +2158,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/FeaturesNavigationScreen"
+                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4248,7 +4248,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/FeaturesNavigationScreen"
+                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -6338,7 +6338,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/FeaturesNavigationScreen"
+                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -8428,7 +8428,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/FeaturesNavigationScreen"
+                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -10518,7 +10518,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/FeaturesNavigationScreen"
+                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -12608,7 +12608,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/FeaturesNavigationScreen"
+                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -14698,7 +14698,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/FeaturesNavigationScreen"
+                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -16788,7 +16788,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: "/Objects/Tata_EMS_Changese/UI/Screens/FeaturesNavigationScreen"
+                  Value: {"IdType":2,"Id":"23aa64d100d55501dca100bac3541b8c","Namespace":36}
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId

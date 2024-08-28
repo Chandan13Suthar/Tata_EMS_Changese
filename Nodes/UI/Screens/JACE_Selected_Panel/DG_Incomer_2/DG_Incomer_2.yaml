@@ -165,7 +165,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/33Kv Switchgear/DG_Incomer/Power_Panel219"
+                Value: {"IdType":2,"Id":"95ff257db653f6615181b80bfc6bd5d5","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -181,7 +181,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/33Kv Switchgear/DG_Incomer/Current_Panel205"
+                Value: {"IdType":2,"Id":"ae02125c7a310820d9bf360d30269ace","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -197,7 +197,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/33Kv Switchgear/DG_Incomer/Voltage_Panel219"
+                Value: {"IdType":2,"Id":"a7a791edf84c06b9b011970e71d4ded5","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -213,7 +213,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/33Kv Switchgear/DG_Incomer/Energy___PF219"
+                Value: {"IdType":2,"Id":"22f6ed7e96cee7f61451b704cbb963bb","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType

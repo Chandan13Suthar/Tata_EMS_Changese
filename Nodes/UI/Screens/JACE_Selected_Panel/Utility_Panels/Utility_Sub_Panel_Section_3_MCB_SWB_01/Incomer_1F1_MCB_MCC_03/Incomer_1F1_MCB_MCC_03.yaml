@@ -165,7 +165,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Power_Panel"
+                Value: {"IdType":2,"Id":"dfdcfe5e0b2fc173fcdb83b262906ef9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -181,7 +181,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Current_Panel"
+                Value: {"IdType":2,"Id":"ece6caa1b77c836cc115beac8d965186","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -197,7 +197,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Voltage_Panel"
+                Value: {"IdType":2,"Id":"9e7af9a1482833f4df800060255d3562","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -213,7 +213,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Energy___PF"
+                Value: {"IdType":2,"Id":"c54b7027c76e47ad1487bb85dc2fbea4","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -420,7 +420,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Power_Panel"
+                Value: {"IdType":2,"Id":"dfdcfe5e0b2fc173fcdb83b262906ef9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -436,7 +436,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Current_Panel"
+                Value: {"IdType":2,"Id":"ece6caa1b77c836cc115beac8d965186","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -452,7 +452,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Voltage_Panel"
+                Value: {"IdType":2,"Id":"9e7af9a1482833f4df800060255d3562","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -468,7 +468,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Energy___PF"
+                Value: {"IdType":2,"Id":"c54b7027c76e47ad1487bb85dc2fbea4","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -675,7 +675,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Power_Panel"
+                Value: {"IdType":2,"Id":"dfdcfe5e0b2fc173fcdb83b262906ef9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -691,7 +691,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Current_Panel"
+                Value: {"IdType":2,"Id":"ece6caa1b77c836cc115beac8d965186","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -707,7 +707,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Voltage_Panel"
+                Value: {"IdType":2,"Id":"9e7af9a1482833f4df800060255d3562","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -723,7 +723,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Energy___PF"
+                Value: {"IdType":2,"Id":"c54b7027c76e47ad1487bb85dc2fbea4","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -930,7 +930,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Power_Panel"
+                Value: {"IdType":2,"Id":"dfdcfe5e0b2fc173fcdb83b262906ef9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -946,7 +946,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Current_Panel"
+                Value: {"IdType":2,"Id":"ece6caa1b77c836cc115beac8d965186","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -962,7 +962,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Voltage_Panel"
+                Value: {"IdType":2,"Id":"9e7af9a1482833f4df800060255d3562","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -978,7 +978,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Energy___PF"
+                Value: {"IdType":2,"Id":"c54b7027c76e47ad1487bb85dc2fbea4","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1185,7 +1185,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Power_Panel"
+                Value: {"IdType":2,"Id":"dfdcfe5e0b2fc173fcdb83b262906ef9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1201,7 +1201,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Current_Panel"
+                Value: {"IdType":2,"Id":"ece6caa1b77c836cc115beac8d965186","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1217,7 +1217,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Voltage_Panel"
+                Value: {"IdType":2,"Id":"9e7af9a1482833f4df800060255d3562","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1233,7 +1233,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Energy___PF"
+                Value: {"IdType":2,"Id":"c54b7027c76e47ad1487bb85dc2fbea4","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1440,7 +1440,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Power_Panel"
+                Value: {"IdType":2,"Id":"dfdcfe5e0b2fc173fcdb83b262906ef9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1456,7 +1456,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Current_Panel"
+                Value: {"IdType":2,"Id":"ece6caa1b77c836cc115beac8d965186","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1472,7 +1472,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Voltage_Panel"
+                Value: {"IdType":2,"Id":"9e7af9a1482833f4df800060255d3562","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1488,7 +1488,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Energy___PF"
+                Value: {"IdType":2,"Id":"c54b7027c76e47ad1487bb85dc2fbea4","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1695,7 +1695,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Power_Panel"
+                Value: {"IdType":2,"Id":"dfdcfe5e0b2fc173fcdb83b262906ef9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1711,7 +1711,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Current_Panel"
+                Value: {"IdType":2,"Id":"ece6caa1b77c836cc115beac8d965186","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1727,7 +1727,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Voltage_Panel"
+                Value: {"IdType":2,"Id":"9e7af9a1482833f4df800060255d3562","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1743,7 +1743,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Energy___PF"
+                Value: {"IdType":2,"Id":"c54b7027c76e47ad1487bb85dc2fbea4","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1950,7 +1950,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Power_Panel"
+                Value: {"IdType":2,"Id":"dfdcfe5e0b2fc173fcdb83b262906ef9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1966,7 +1966,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Current_Panel"
+                Value: {"IdType":2,"Id":"ece6caa1b77c836cc115beac8d965186","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1982,7 +1982,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Voltage_Panel"
+                Value: {"IdType":2,"Id":"9e7af9a1482833f4df800060255d3562","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1998,7 +1998,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/Real time Individual Panel Design/Energy___PF"
+                Value: {"IdType":2,"Id":"c54b7027c76e47ad1487bb85dc2fbea4","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType

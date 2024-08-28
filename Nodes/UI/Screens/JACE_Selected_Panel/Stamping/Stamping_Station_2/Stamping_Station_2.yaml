@@ -165,7 +165,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_INF1/Power_Panel123"
+                Value: {"IdType":2,"Id":"65c9a8aca51428e5371275d6a131bd96","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -181,7 +181,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_INF1/Current_Panel128"
+                Value: {"IdType":2,"Id":"cc9454d95ee68aa4c1c240da88052a98","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -197,7 +197,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_INF1/Voltage_Panel128"
+                Value: {"IdType":2,"Id":"93bd7920c49b40f839a4160c7e7c1f30","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -213,7 +213,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_INF1/Energy___PF123"
+                Value: {"IdType":2,"Id":"b4b170530856fb321c54b2accce25c0a","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -420,7 +420,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_2F/Power_Panel121"
+                Value: {"IdType":2,"Id":"a76c212b3a81f5d381995e219c085e1b","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -436,7 +436,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_2F/Current_Panel125"
+                Value: {"IdType":2,"Id":"2915639d96c2e38b1a95240358856f2b","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -452,7 +452,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_2F/Voltage_Panel126"
+                Value: {"IdType":2,"Id":"a38f183bc892162cc8099d535d643be3","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -468,7 +468,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_2F/Energy___PF128"
+                Value: {"IdType":2,"Id":"143d0adbd4ec689df81326a0482c563f","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -675,7 +675,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_3F1/Power_Panel120"
+                Value: {"IdType":2,"Id":"f8da9b11efdd09e2e59c8c318438a1d2","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -691,7 +691,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_3F1/Current_Panel129"
+                Value: {"IdType":2,"Id":"e75c964020b8f4bdcc6b63e235757411","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -707,7 +707,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_3F1/Voltage_Panel125"
+                Value: {"IdType":2,"Id":"f6cc4413a4eef83da89b75e6203341c8","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -723,7 +723,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_3F1/Energy___PF132"
+                Value: {"IdType":2,"Id":"f8a98fd574551273b347fd7ae8bb9fb8","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -930,7 +930,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_3F2/Power_Panel129"
+                Value: {"IdType":2,"Id":"6d638d6383c4ccb312c1ee89995787e6","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -946,7 +946,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_3F2/Current_Panel130"
+                Value: {"IdType":2,"Id":"c67b6affc682849addf1802d32659946","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -962,7 +962,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_3F2/Voltage_Panel117"
+                Value: {"IdType":2,"Id":"bd6a42d428956ed2f93e001661f53770","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -978,7 +978,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_3F2/Energy___PF122"
+                Value: {"IdType":2,"Id":"8c89f37af44d55e9e5cf8c79b3928064","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1185,7 +1185,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_4F1/Power_Panel130"
+                Value: {"IdType":2,"Id":"b11cc2fc77b100f4de4d39b7e92562b7","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1201,7 +1201,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_4F1/Current_Panel131"
+                Value: {"IdType":2,"Id":"bdbf4287be354bd555fea28d52cfc783","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1217,7 +1217,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_4F1/Voltage_Panel129"
+                Value: {"IdType":2,"Id":"c02f6293ecea885800093ec63c641779","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1233,7 +1233,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_4F1/Energy___PF117"
+                Value: {"IdType":2,"Id":"768402ba31aab324cb032219df859070","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1440,7 +1440,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_4F2/Power_Panel131"
+                Value: {"IdType":2,"Id":"a8dfa488ff2e47660ca019376d80a9b9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1456,7 +1456,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_4F2/Current_Panel119"
+                Value: {"IdType":2,"Id":"8aab725f66c8920cf5c47dc36a3ab955","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1472,7 +1472,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_4F2/Voltage_Panel130"
+                Value: {"IdType":2,"Id":"d7911b1113192aff12a8c39f4d801dba","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1488,7 +1488,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_4F2/Energy___PF119"
+                Value: {"IdType":2,"Id":"229e0367bc6a31e2c0309856642cd627","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1695,7 +1695,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_5F1/Power_Panel132"
+                Value: {"IdType":2,"Id":"7c386810e30c9cb3e0213c15373b4d74","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1711,7 +1711,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_5F1/Current_Panel122"
+                Value: {"IdType":2,"Id":"ab79ddff771676f664af3ced72dd84ed","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1727,7 +1727,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_5F1/Voltage_Panel131"
+                Value: {"IdType":2,"Id":"36366f8d597f09b9a6b3d6bdf9866a7c","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1743,7 +1743,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/Stamping/STP_SWB_02_OG_5F1/Energy___PF126"
+                Value: {"IdType":2,"Id":"09c26fd4f5895f0706b98156ded430a9","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType

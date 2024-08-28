@@ -165,7 +165,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_IN1/Power_Panel139"
+                Value: {"IdType":2,"Id":"3ed449d621974f39ec028ce092f015ad","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -181,7 +181,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_IN1/Current_Panel136"
+                Value: {"IdType":2,"Id":"7e250f6886f733a6f4e522aa8fa9e0a3","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -197,7 +197,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_IN1/Voltage_Panel139"
+                Value: {"IdType":2,"Id":"3469d0d25994573d45cced5f77f64d91","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -213,7 +213,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_IN1/Energy___PF139"
+                Value: {"IdType":2,"Id":"ec87ef6f9516585e2bca3526a01aaed7","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -420,7 +420,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_IN2/Power_Panel140"
+                Value: {"IdType":2,"Id":"ee57d6de5c3198fa1f0336c610a16d99","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -436,7 +436,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_IN2/Current_Panel139"
+                Value: {"IdType":2,"Id":"4d3d6b5cc5cfbd59d1e58c7c79ca2827","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -452,7 +452,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_IN2/Voltage_Panel140"
+                Value: {"IdType":2,"Id":"e377a6eefa2d2291a890a57a66d4ed6b","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -468,7 +468,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_IN2/Energy___PF140"
+                Value: {"IdType":2,"Id":"737f5bc5531ccbd668431c3cee2a5fdb","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -675,7 +675,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F3/Power_Panel141"
+                Value: {"IdType":2,"Id":"fc35048a090501118d9542ef16c67623","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -691,7 +691,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F3/Current_Panel141"
+                Value: {"IdType":2,"Id":"049f9dcde85f3daf824467e16d6d1f52","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -707,7 +707,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F3/Voltage_Panel29"
+                Value: {"IdType":2,"Id":"8d3ab22f26a5e037622a68b1053c38aa","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -723,7 +723,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F3/Energy___PF141"
+                Value: {"IdType":2,"Id":"a24525460d75e47f8e166bc9caca9a5a","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -930,7 +930,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F4/Power_Panel142"
+                Value: {"IdType":2,"Id":"9efa075b08655e48e46eb7f140645625","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -946,7 +946,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F4/Current_Panel142"
+                Value: {"IdType":2,"Id":"946c2e51d02bc49878183a06de616507","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -962,7 +962,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F4/Voltage_Panel31"
+                Value: {"IdType":2,"Id":"54584ccb57eb0f66da8658f110ae66db","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -978,7 +978,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F4/Energy___PF142"
+                Value: {"IdType":2,"Id":"cfe635f8c566831037eadb70fafe2e70","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1185,7 +1185,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F6/Power_Panel143"
+                Value: {"IdType":2,"Id":"9b83b22a826152c13dcf58d9c494a29f","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1201,7 +1201,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F6/Current_Panel143"
+                Value: {"IdType":2,"Id":"649caae7699d66d852c987a92e307ab2","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1217,7 +1217,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F6/Voltage_Panel141"
+                Value: {"IdType":2,"Id":"cb5e137c8b52bf265820f055e527db0d","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1233,7 +1233,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F6/Energy___PF143"
+                Value: {"IdType":2,"Id":"a11d83e62e3cfcb721dfb627b7b92781","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1440,7 +1440,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F7/Power_Panel33"
+                Value: {"IdType":2,"Id":"13ecfb7ad4848382b60840488bec8b0e","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1456,7 +1456,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F7/Current_Panel144"
+                Value: {"IdType":2,"Id":"6d60e2096eba2546cde09d61dc629e55","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1472,7 +1472,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F7/Voltage_Panel39"
+                Value: {"IdType":2,"Id":"6122da13312dc9123ccd402b2d999979","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1488,7 +1488,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/BodyShop/BDY_MVS_02_OG_F7/Energy___PF144"
+                Value: {"IdType":2,"Id":"fb267335f4c7f7a9fc2909b221a2b361","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType

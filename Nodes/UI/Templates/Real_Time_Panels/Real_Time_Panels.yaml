@@ -3,7 +3,6 @@ Type: FolderType
 Children:
 - File: Flow_Chart/Flow_Chart.yaml
 - File: Real_time_Individual_Panel_Layout/Real_time_Individual_Panel_Layout.yaml
-- File: Real_time_Individual_Panel_Design/Real_time_Individual_Panel_Design.yaml
 - File: Utility/Utility.yaml
 - File: Stamping/Stamping.yaml
 - File: PaintShop/PaintShop.yaml

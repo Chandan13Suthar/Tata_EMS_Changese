@@ -165,7 +165,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_IN1F2/Power_Panel230"
+                Value: {"IdType":2,"Id":"a17242bed9a179a4e8b8a6bab5bdd386","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -181,7 +181,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_IN1F2/Current_Panel231"
+                Value: {"IdType":2,"Id":"e7f42871457ea4c1866460a4b6741d74","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -197,7 +197,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_IN1F2/Voltage_Panel231"
+                Value: {"IdType":2,"Id":"91e9074a6da37026768387be61c457ad","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -213,7 +213,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_IN1F2/Energy___PF230"
+                Value: {"IdType":2,"Id":"9bcd2dce695bb85dcc3f22aaf3c6bfbc","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -420,7 +420,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_2F3/Power_Panel227"
+                Value: {"IdType":2,"Id":"364073a6fdb425cd37e132b602302bfb","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -436,7 +436,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_2F3/Current_Panel234"
+                Value: {"IdType":2,"Id":"e7bb8a0b70fb08082934f696324d3331","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -452,7 +452,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_2F3/Voltage_Panel232"
+                Value: {"IdType":2,"Id":"10406190b6acab3095ca3fb544aa3960","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -468,7 +468,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_2F3/Energy___PF226"
+                Value: {"IdType":2,"Id":"7b7af181a32b16de21982aab51146e4e","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -675,7 +675,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_3F3/Power_Panel231"
+                Value: {"IdType":2,"Id":"55f87e59e9a32ec5363b16375a2b7e7d","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -691,7 +691,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_3F3/Current_Panel235"
+                Value: {"IdType":2,"Id":"d9df4752dd78479bef6d7d2a9fddcf4a","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -707,7 +707,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_3F3/Voltage_Panel233"
+                Value: {"IdType":2,"Id":"976be44a03acb887cd7bd79e557b1295","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -723,7 +723,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_3F3/Energy___PF229"
+                Value: {"IdType":2,"Id":"e09811d3161cf20d54ec1f0fab573cb4","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -930,7 +930,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_4F3/Power_Panel232"
+                Value: {"IdType":2,"Id":"33fc0c3f3f55bc91133ea27fe013985e","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -946,7 +946,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_4F3/Current_Panel228"
+                Value: {"IdType":2,"Id":"bd40bc6ccbd30b22d77301c8916caafc","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -962,7 +962,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_4F3/Voltage_Panel234"
+                Value: {"IdType":2,"Id":"78d5f8dbfa18c57b0798b3b08c27bd8f","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -978,7 +978,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_4F3/Energy___PF231"
+                Value: {"IdType":2,"Id":"b515362092e3edf638c0da90645cce39","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1185,7 +1185,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_5F3/Power_Panel233"
+                Value: {"IdType":2,"Id":"36a40ed2b2f882291935553a7e22a338","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1201,7 +1201,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_5F3/Current_Panel227"
+                Value: {"IdType":2,"Id":"e1e7183cbc091c7c554e6fff473a91ed","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1217,7 +1217,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_5F3/Voltage_Panel236"
+                Value: {"IdType":2,"Id":"e7cc7012b7ae60813c20a7c2a80b8f90","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
@@ -1233,7 +1233,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_EMS_Changese/UI/Screens/Individual Panels/TCF Station/WH_TCF_SWB_01_OG_5F3/Energy___PF233"
+                Value: {"IdType":2,"Id":"e49c0fff5199f19bd0299521becd6bbb","Namespace":36}
                 Children:
                 - Name: Kind
                   Type: PropertyType
