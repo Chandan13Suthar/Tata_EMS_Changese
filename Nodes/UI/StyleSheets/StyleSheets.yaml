@@ -835,15 +835,140 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: -10.0
+        Value: 2.0
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#020b83"
+        Value: "#f0f0f0"
       - Name: ForegroundColor
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+      - Name: HandleColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+    - Name: GaugeStyle2
+      Type: GaugeStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#01042c"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: HandleSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f0f0f0"
+      - Name: ForegroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ff0000"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+      - Name: HandleColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+    - Name: GaugeStyle3
+      Type: GaugeStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#01042c"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: HandleSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f0f0f0"
+      - Name: ForegroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+      - Name: HandleColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+    - Name: GaugeStyle4
+      Type: GaugeStyle
+      Children:
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#01042c"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: HandleSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 10.0
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 2.0
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f0f0f0"
+      - Name: ForegroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#020b83"
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: FontWeightEnum
+        Value: 700
+      - Name: HandleColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
   - Name: NavigationPanelStyles
     Type: BaseObjectType
     Children:
@@ -984,11 +1109,11 @@ Children:
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#000000"
+        Value: "#2a3c46"
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#f0f0f0"
+        Value: "#ffffff"
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -996,11 +1121,11 @@ Children:
       - Name: AxisColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#2a3c46"
       - Name: GridColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#f0f0f0"
+        Value: "#c4ced7"
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
@@ -1008,7 +1133,7 @@ Children:
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
-        Value: 800
+        Value: 400
     - Name: ChartStyle3
       Type: ChartStyle
       Children:

@@ -3799,7 +3799,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Changese/UI/Screens/Alarms/AlarmsPerArea"
+                      Value: "/Objects/Tata_EMS_Changese/UI/Templates/Real Time Panels/New Real Time Panel Formate/Panel1"
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
