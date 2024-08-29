@@ -73,7 +73,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
     private IUAVariable day30Variable;
     private IUAVariable day31Variable;
     private IUAVariable jaceVariable;
-
+    private IUAVariable refreshbVariable;
     private PeriodicTask periodicTask;
    
     public override void Start()
@@ -124,6 +124,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         day30Variable = owner.Day30Variable;
         day31Variable = owner.Day31Variable;
         jaceVariable = owner.JaceVariable;
+        refreshbVariable = owner.RefreshBVariable;
 
 
 
@@ -185,6 +186,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         float day30 = day30Variable.Value;
         float day31 = day31Variable.Value;
         string jace = jaceVariable.Value;
+        int refresh = refreshbVariable.Value;
 
 
         var project = FTOptix.HMIProject.Project.Current;
@@ -615,7 +617,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
             Thread.Sleep(500);
 
             button = false;
-            
+            refresh = 0;
         }
 
         targetVariable.Value = target;
@@ -661,6 +663,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         day29Variable.Value = day29;
         day30Variable.Value = day30;
         day31Variable.Value = day31;
+        refreshbVariable.Value = refresh;
 
 
 
