@@ -14576,865 +14576,12 @@ Children:
 - File: Retain_Variable/Retain_Variable.yaml
 - File: HistoDashboardResult/HistoDashboardResult.yaml
 - File: HomePageHistogram/HomePageHistogram.yaml
-- File: eCharts/eCharts.yaml
+- File: HomePageHistochart/HomePageHistochart.yaml
+- File: HomePageHistochartText/HomePageHistochartText.yaml
 - Name: AutoLogOutTrigger
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
-- Name: HomePageTagsInstance
-  Type: HomePageTags
-  Children:
-  - Name: TodayConsumption
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: TodayConsumptionCost
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: AverageFrequency
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: AvgPowerFactor
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: MaxDemand
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: MonthConsumption
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: MonthConsumptionCost
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: HomePageTagsLogic
-    Type: NetLogic
-  - Name: Button
-    Id: g=ac8db29a3ccbfbc939e265fe88a783b1
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-  - Name: GuageMax
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day1
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day2
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day3
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day4
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day5
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day6
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day7
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day8
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day9
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day10
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day11
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day12
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day13
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day14
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day15
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day16
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day17
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day18
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day19
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day20
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day21
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day22
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day23
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day24
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day25
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day26
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day27
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day28
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day29
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day30
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day31
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Jace
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
-    Children:
-    - Name: KeyValueConverter1
-      Type: ValueMapConverter
-      Children:
-      - Name: Source
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        ReferenceType: HasSource
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Tata_EMS_Changese/Model/HomePageHistogram/HomePage2/SpinBoxValue"
-      - Name: Pairs
-        Type: BaseObjectType
-        Children:
-        - Name: Pair
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 0
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "33KV"
-        - Name: Pair1
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 1
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "UTILITY"
-        - Name: Pair2
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 2
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "PUMPROOM"
-        - Name: Pair3
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 3
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "PAINTSHOP"
-        - Name: Pair4
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 4
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "BODYSHOP"
-        - Name: Pair5
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 5
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "TCF"
-        - Name: Pair6
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 6
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "STAMPING"
-        - Name: Pair7
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 7
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "ADMIN"
-        - Name: Pair8
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 8
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "SPP"
-- Name: HomePageTags
-  Id: g=e9e4bb9c05b7e7a614a4edcecbbfe98b
-  Supertype: BaseObjectType
-  Children:
-  - Name: TodayConsumption
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: TodayConsumptionCost
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: AverageFrequency
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: AvgPowerFactor
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: MaxDemand
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: MonthConsumption
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: MonthConsumptionCost
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: HomePageTagsLogic
-    Type: NetLogic
-  - Name: Button
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-  - Name: GuageMax
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day1
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day2
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day3
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day4
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day5
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day6
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day7
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day8
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day9
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day10
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day11
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day12
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day13
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day14
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day15
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day16
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day17
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day18
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day19
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day20
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day21
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day22
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day23
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day24
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day25
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day26
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day27
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day28
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day29
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day30
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day31
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Jace
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
-    Children:
-    - Name: KeyValueConverter1
-      Type: ValueMapConverter
-      Children:
-      - Name: Source
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        ReferenceType: HasSource
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Tata_EMS_Changese/Model/HomePageHistogram/HomePage2/SpinBoxValue"
-      - Name: Pairs
-        Type: BaseObjectType
-        Children:
-        - Name: Pair
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 0
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "33KV"
-        - Name: Pair1
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 1
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "UTILITY"
-        - Name: Pair2
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 2
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "PUMPROOM"
-        - Name: Pair3
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 3
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "PAINTSHOP"
-        - Name: Pair4
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 4
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "BODYSHOP"
-        - Name: Pair5
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 5
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "TCF"
-        - Name: Pair6
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 6
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "STAMPING"
-        - Name: Pair7
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 7
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "ADMIN"
-        - Name: Pair8
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 8
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "SPP"
-- Name: HomePageTags1
-  Type: HomePageTags
-  Children:
-  - Name: TodayConsumption
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: TodayConsumptionCost
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: AverageFrequency
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: AvgPowerFactor
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: MaxDemand
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: MonthConsumption
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: MonthConsumptionCost
-    Type: BaseDataVariableType
-    DataType: Float
-    Value: 0.0
-  - Name: HomePageTagsLogic
-    Type: NetLogic
-  - Name: Button
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-  - Name: GuageMax
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day1
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day2
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day3
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day4
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day5
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day6
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day7
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day8
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day9
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day10
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day11
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day12
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day13
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day14
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day15
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day16
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day17
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day18
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day19
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day20
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day21
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day22
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day23
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day24
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day25
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day26
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day27
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day28
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day29
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day30
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Day31
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 0
-  - Name: Jace
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
-    Children:
-    - Name: KeyValueConverter1
-      Type: ValueMapConverter
-      Children:
-      - Name: Source
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        ReferenceType: HasSource
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Tata_EMS_Changese/Model/HomePageHistogram/HomePage2/SpinBoxValue"
-      - Name: Pairs
-        Type: BaseObjectType
-        Children:
-        - Name: Pair
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 0
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "33KV"
-        - Name: Pair1
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 1
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "UTILITY"
-        - Name: Pair2
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 2
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "PUMPROOM"
-        - Name: Pair3
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 3
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "PAINTSHOP"
-        - Name: Pair4
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 4
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "BODYSHOP"
-        - Name: Pair5
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 5
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "TCF"
-        - Name: Pair6
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 6
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "STAMPING"
-        - Name: Pair7
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 7
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "ADMIN"
-        - Name: Pair8
-          Type: ValueMapPair
-          Children:
-          - Name: Key
-            Type: BaseDataVariableType
-            DataType: UInt32
-            Value: 8
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "SPP"
 - Name: MonthConsumptionINT
   Type: BaseDataVariableType
   DataType: Int32
@@ -15814,6 +14961,249 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "SPP"
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Tata_EMS_Changese/Model/HomePageHistogram/HomePage2/SpinBoxValue"
+      - Name: Pairs
+        Type: BaseObjectType
+        Children:
+        - Name: Pair
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 0
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "33KV"
+        - Name: Pair1
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 1
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "UTILITY"
+        - Name: Pair2
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 2
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PUMPROOM"
+        - Name: Pair3
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 3
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PAINTSHOP"
+        - Name: Pair4
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 4
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "BODYSHOP"
+        - Name: Pair5
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 5
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TCF"
+        - Name: Pair6
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 6
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "STAMPING"
+        - Name: Pair7
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 7
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ADMIN"
+        - Name: Pair8
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 8
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "SPP"
+  - Name: Day1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day5
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day9
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day10
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day11
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day12
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day13
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day14
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day15
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day16
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day17
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day18
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day19
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day20
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day21
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day22
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day23
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day24
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day25
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day26
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day27
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day28
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day29
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day30
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day31
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
 - Name: HomePageNew
   Id: g=e202063b9b77d674d04af72a94a04c4c
   Supertype: BaseObjectType
@@ -16197,6 +15587,249 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "SPP"
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Tata_EMS_Changese/Model/HomePageHistogram/HomePage2/SpinBoxValue"
+      - Name: Pairs
+        Type: BaseObjectType
+        Children:
+        - Name: Pair
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 0
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "33KV"
+        - Name: Pair1
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 1
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "UTILITY"
+        - Name: Pair2
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 2
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PUMPROOM"
+        - Name: Pair3
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 3
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PAINTSHOP"
+        - Name: Pair4
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 4
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "BODYSHOP"
+        - Name: Pair5
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 5
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TCF"
+        - Name: Pair6
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 6
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "STAMPING"
+        - Name: Pair7
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 7
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ADMIN"
+        - Name: Pair8
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 8
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "SPP"
+  - Name: Day1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day5
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day9
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day10
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day11
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day12
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day13
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day14
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day15
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day16
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day17
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day18
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day19
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day20
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day21
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day22
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day23
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day24
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day25
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day26
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day27
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day28
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day29
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day30
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day31
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
 - Name: HomePageNew1
   Type: HomePageNew
   Children:
@@ -16526,6 +16159,249 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "SPP"
+  - Name: Jace
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: KeyValueConverter1
+      Type: ValueMapConverter
+      Children:
+      - Name: Source
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Tata_EMS_Changese/Model/HomePageHistogram/HomePage2/SpinBoxValue"
+      - Name: Pairs
+        Type: BaseObjectType
+        Children:
+        - Name: Pair
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 0
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "33KV"
+        - Name: Pair1
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 1
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "UTILITY"
+        - Name: Pair2
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 2
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PUMPROOM"
+        - Name: Pair3
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 3
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PAINTSHOP"
+        - Name: Pair4
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 4
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "BODYSHOP"
+        - Name: Pair5
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 5
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TCF"
+        - Name: Pair6
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 6
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "STAMPING"
+        - Name: Pair7
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 7
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ADMIN"
+        - Name: Pair8
+          Type: ValueMapPair
+          Children:
+          - Name: Key
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Value: 8
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "SPP"
+  - Name: Day1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day5
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day9
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day10
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day11
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day12
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day13
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day14
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day15
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day16
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day17
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day18
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day19
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day20
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day21
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day22
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day23
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day24
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day25
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day26
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day27
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day28
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day29
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day30
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Day31
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
 - Name: HomePageComparisionPanel
   Id: g=4130c04dc48e2f4b6a05645c7d2b48e1
   Supertype: BaseObjectType
@@ -16896,6 +16772,10 @@ Children:
         DataType: DynamicLinkMode
         ModellingRule: Optional
         Value: 2
+  - Name: MonthConsumption
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
 - Name: HomePageComparisionPanel1
   Type: HomePageComparisionPanel
   Children:
@@ -17217,6 +17097,10 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/Tata_EMS_Changese/Model/Datalogtag/ProductionCount"
+  - Name: MonthConsumption
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
 - Name: HomePageComparisionPanelInstance
   Type: HomePageComparisionPanel
   Children:
@@ -17548,6 +17432,10 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/Tata_EMS_Changese/Model/Datalogtag/ProductionCount"
+  - Name: MonthConsumption
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
 - Name: MeterSelectionForPanels
   Id: g=325a923e224c701331f2ef17763539e8
   Type: BaseDataVariableType
@@ -21368,4 +21256,8 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "SPP"
+- Name: Timestamp
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "\"Timestamp\""
 - File: HomePageJaceWisePanel/HomePageJaceWisePanel.yaml

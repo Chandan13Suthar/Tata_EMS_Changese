@@ -51,6 +51,7 @@ public class ClockLogic : BaseNetLogic {
         LogicObject.GetVariable("TodayDate").Value = todaydate;
         LogicObject.GetVariable("Day").Value = currentTime.Day.ToString();
         LogicObject.GetVariable("MonthYear").Value = currentTime.ToString("MM-yyyy");
+        LogicObject.GetVariable("Month").Value = currentTime.ToString("MM");
         LogicObject.GetVariable("CurrentMonthFirstdate").Value = FirstDate;
         LogicObject.GetVariable("CurrentFirstBack").Value = FirstbackDate;
     }

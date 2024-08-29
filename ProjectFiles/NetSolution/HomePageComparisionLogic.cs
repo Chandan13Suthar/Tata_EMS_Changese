@@ -99,6 +99,7 @@ public class HomePageComparisionLogic : BaseNetLogic
     private IUAVariable monthyearVariable;
     private IUAVariable productioncountVariable;
     private IUAVariable yearVariable;
+    private IUAVariable monthconsumptionVariable;
 
     public override void Start()
     {
@@ -107,6 +108,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         productioncountVariable = owner.ProductionCountVariable;
         monthyearVariable = owner.MonthyearVariable;
         yearVariable = owner.YearVariable;
+        monthconsumptionVariable = owner.MonthConsumptionVariable;
         //Utility
         jaceVariable = owner.JaceVariable;
         meterVariable = owner.MeterVariable;
@@ -287,6 +289,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         int monthlowest33kv = monthlowest33kvVariable.Value;
         int average33kv = average33kvVariable.Value;
         float consumption33kv = consumption33kvVariable.Value;
+        float monthconsumption = monthconsumptionVariable.Value;
 
         //////////////Production Count/////////////////
         int productioncount = productioncountVariable.Value;
@@ -370,6 +373,8 @@ public class HomePageComparisionLogic : BaseNetLogic
                                                                                          //////////////////////////////////Production Count Update Update////////////////////////////////////////////////
 
         var myStore46 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Production Counts
+        var myStore47 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//MonthConsumption
+
 
         ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
         // For Utility
@@ -485,6 +490,9 @@ public class HomePageComparisionLogic : BaseNetLogic
         /////////////For Production Count//////////////
         object[,] resultSet46;
         string[] header46;
+        object[,] resultSet47;
+        string[] header47;
+
 
         ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
         if (gbutton == true)
@@ -599,6 +607,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             string query45 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '33KV' ";
 
             string query46 = $" UPDATE HomePage SET Production = '" + productioncount1 + "' WHERE LocalTimestamp BETWEEN '" + old123 + " 0:00:00' AND '" + old123 + " 23:59:59' ";
+            string query47 = $"SELECT SUM(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = '33KV' ";
             //throw new Exception(query46);
 
             ////////////////////////////////*********************************************/////////////////////////////////////////////////////////////////////////// 
@@ -672,7 +681,8 @@ public class HomePageComparisionLogic : BaseNetLogic
             myStore44.Query(query44, out header44, out resultSet44);
             myStore45.Query(query45, out header45, out resultSet45);
 
-            myStore46.Query(query46, out header46, out resultSet46);  /////////////////For Production Count/////////////////////
+            myStore46.Query(query46, out header46, out resultSet46);
+            myStore47.Query(query47, out header47, out resultSet47);/////////////////For Production Count/////////////////////
 
             ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
 
@@ -1145,6 +1155,15 @@ public class HomePageComparisionLogic : BaseNetLogic
                 consumption33kv = Consumption33KV;
             }
 
+            var rowCount47 = resultSet47 != null ? resultSet47.GetLength(0) : 0;
+            var columnCount47 = header47 != null ? header47.Length : 0;
+            if (rowCount47 > 0 && columnCount47 > 0)
+            {
+                var column1 = Convert.ToInt32(resultSet47[0, 0]);
+                var MonthConsumption = column1;
+                monthconsumption = MonthConsumption;
+            }
+
 
             ////////////////Calculation for Percentage/////////////////////////////
             float utilityP = (consumption * 100) / consumption33kv;
@@ -1249,6 +1268,8 @@ public class HomePageComparisionLogic : BaseNetLogic
         paintshoppercentageVariable.Value = paintshoppercentage;
         sparepercentageVariable.Value = sparepercentage;
         spppercentageVariable.Value = spppercentage;
+
+        monthconsumptionVariable.Value = monthconsumption;
 
 
 

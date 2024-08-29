@@ -1419,7 +1419,7 @@ Children:
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#2a3c46"
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -1427,7 +1427,7 @@ Children:
       - Name: Spacing
         Type: BaseDataVariableType
         DataType: Size
-        Value: 40.0
+        Value: 20.0
   - Name: LabelStyles
     Type: BaseObjectType
     Children:
