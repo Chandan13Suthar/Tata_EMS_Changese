@@ -1737,7 +1737,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "../../../../../../../click_menu@NodeId"
+                  Value: "../../../../../../../SideMenu/click_menu@NodeId"
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -2578,7 +2578,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "../../../../../VarMenuClick@NodeId"
+                        Value: "../../../../../../../../../click_menu@NodeId"
                     - Name: Value
                       Type: BaseDataVariableType
                       DataType: Boolean
