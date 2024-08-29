@@ -543,7 +543,7 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             ModellingRule: Optional
-            Value: "GaugeStyle1"
+            Value: "GaugeStyle4"
           - Name: ScalePadding
             Type: BaseDataVariableType
             DataType: Size
@@ -564,6 +564,11 @@ Children:
             DataType: ValueChangeBehaviour
             ModellingRule: Optional
             Value: 1
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
         - Name: Image2
           Type: Image
           Children:
