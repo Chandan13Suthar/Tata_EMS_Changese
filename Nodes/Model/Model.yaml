@@ -15204,6 +15204,15 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+  - Name: RefreshB
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Changese/Model/RefreshHomePage"
 - Name: HomePageNew
   Id: g=e202063b9b77d674d04af72a94a04c4c
   Supertype: BaseObjectType
@@ -15830,6 +15839,21 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+  - Name: RefreshB
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Changese/Model/RefreshHomePage"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
 - Name: HomePageNew1
   Type: HomePageNew
   Children:
@@ -16402,6 +16426,15 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+  - Name: RefreshB
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_EMS_Changese/Model/RefreshHomePage"
 - Name: HomePageComparisionPanel
   Id: g=4130c04dc48e2f4b6a05645c7d2b48e1
   Supertype: BaseObjectType
