@@ -31,6 +31,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 {
     private IUAVariable dateVariable;
     private IUAVariable date1Variable;
+    private IUAVariable utilitypowerVariable;
     private IUAVariable jacestampingVariable;
     private IUAVariable targetstampingVariable;
     private IUAVariable yearloweststampingVariable;
@@ -43,6 +44,7 @@ public class HomePageComparisionLogic : BaseNetLogic
     private IUAVariable monthlowesttcfVariable;
     private IUAVariable averagetcfVariable;
     private IUAVariable consumptiontcfVariable;
+    private IUAVariable tcfpowerVariable;
     private IUAVariable jacebodyshopVariable;
     private IUAVariable targetbodyshopVariable;
     private IUAVariable yearlowestbodyshopVariable;
@@ -50,12 +52,14 @@ public class HomePageComparisionLogic : BaseNetLogic
     private IUAVariable averagebodyshopVariable;
     private IUAVariable consumptionbodyshopVariable;
     private IUAVariable consumptionpaintshopVariable;
+    private IUAVariable paintshoppowerVariable;
     private IUAVariable jacesppVariable;
     private IUAVariable targetsppVariable;
     private IUAVariable yearlowestsppVariable;
     private IUAVariable monthlowestsppVariable;
     private IUAVariable averagesppVariable;
     private IUAVariable consumptionsppVariable;
+    private IUAVariable spppowerVariable;
     private IUAVariable jacespareVariable;
     private IUAVariable targetspareVariable;
     private IUAVariable yearlowestspareVariable;
@@ -68,6 +72,7 @@ public class HomePageComparisionLogic : BaseNetLogic
     private IUAVariable monthlowest33kvVariable;
     private IUAVariable average33kvVariable;
     private IUAVariable consumption33kvVariable;
+    private IUAVariable kv33powerVariable;
     private IUAVariable bodyshoppercentageVariable;
     private IUAVariable engineshoppercentageVariable;
     private IUAVariable paintshoppercentageVariable;
@@ -100,6 +105,14 @@ public class HomePageComparisionLogic : BaseNetLogic
     private IUAVariable productioncountVariable;
     private IUAVariable yearVariable;
     private IUAVariable monthconsumptionVariable;
+    private IUAVariable bodyshoppowerVariable;
+    private IUAVariable adminpowerVariable;
+    private IUAVariable stampingpowerVariable;
+
+
+
+
+
 
     public override void Start()
     {
@@ -120,6 +133,8 @@ public class HomePageComparisionLogic : BaseNetLogic
         gbuttonVariable = owner.GBUTTONVariable;
         dateVariable = owner.DateVariable;
         date1Variable = owner.Date1Variable;
+        utilitypowerVariable = owner.UtilityPowerVariable;
+
         // Stamping
         jacestampingVariable = owner.JaceStampingVariable;
         targetstampingVariable = owner.TargetStampingVariable;
@@ -127,6 +142,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         monthloweststampingVariable = owner.MonthlowestStampingVariable;
         averagestampingVariable = owner.AverageStampingVariable;
         consumptionstampingVariable = owner.ConsumptionStampingVariable;
+        stampingpowerVariable = owner.StampingPowerVariable;
         // TCF
         jacetcfVariable = owner.JaceTcfVariable;
         targettcfVariable = owner.TargetTcfVariable;
@@ -134,6 +150,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         monthlowesttcfVariable = owner.MonthlowestTcfVariable;
         averagetcfVariable = owner.AverageTcfVariable;
         consumptiontcfVariable = owner.ConsumptionTcfVariable;
+        tcfpowerVariable = owner.TcfPowerVariable;
 
         // Bodyshop
         jacebodyshopVariable = owner.JaceBodyshopVariable;
@@ -142,6 +159,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         monthlowestbodyshopVariable = owner.MonthlowestBodyshopVariable;
         averagebodyshopVariable = owner.AverageBodyshopVariable;
         consumptionbodyshopVariable = owner.ConsumptionBodyshopVariable;
+        bodyshoppowerVariable = owner.BodyshopPowerVariable;
 
         // Engineshop
         jaceengineshopVariable = owner.JaceEngineshopVariable;
@@ -150,6 +168,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         monthlowestengineshopVariable = owner.MonthlowestEngineshopVariable;
         averageengineshopVariable = owner.AverageEngineshopVariable;
         consumptionengineshopVariable = owner.ConsumptionEngineshopVariable;
+        adminpowerVariable = owner.AdminPowerVariable;
 
         // Paintshop
         jacepaintshopVariable = owner.JacePaintshopVariable;
@@ -158,6 +177,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         monthlowestpaintshopVariable = owner.MonthlowestPaintshopVariable;
         averagepaintshopVariable = owner.AveragePaintshopVariable;
         consumptionpaintshopVariable = owner.ConsumptionPaintshopVariable;
+        paintshoppowerVariable = owner.PaintshopPowerVariable;
 
         // Spp
         jacesppVariable = owner.JaceSppVariable;
@@ -166,6 +186,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         monthlowestsppVariable = owner.MonthlowestSppVariable;
         averagesppVariable = owner.AverageSppVariable;
         consumptionsppVariable = owner.ConsumptionSppVariable;
+        spppowerVariable = owner.SppPowerVariable;
 
         // Spare
         jacespareVariable = owner.JaceSpareVariable;
@@ -183,6 +204,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         monthlowest33kvVariable = owner.Monthlowest33KVVariable;
         average33kvVariable = owner.Average33KVVariable;
         consumption33kvVariable = owner.Consumption33KVVariable;
+        kv33powerVariable = owner.KV33PowerVariable;
 
         ////Calculation Related/////////
         utilitypercentageVariable = owner.UtilitypercentageVariable;
@@ -224,6 +246,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         int average = averageVariable.Value;
         int consumption = consumptionVariable.Value;
         bool gbutton = gbuttonVariable.Value;
+        float utilitypower = utilitypowerVariable.Value;
 
         //For Stamping
         int jacestamping = jacestampingVariable.Value;
@@ -232,6 +255,8 @@ public class HomePageComparisionLogic : BaseNetLogic
         int monthloweststamping = monthloweststampingVariable.Value;
         int averagestamping = averagestampingVariable.Value;
         float consumptionstamping = consumptionstampingVariable.Value;
+        float stampingpower = stampingpowerVariable.Value;
+
         // For TCF
         int jacetcf = jacetcfVariable.Value;
         int targettcf = targettcfVariable.Value;
@@ -239,6 +264,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         int monthlowesttcf = monthlowesttcfVariable.Value;
         int averagetcf = averagetcfVariable.Value;
         float consumptiontcf = consumptiontcfVariable.Value;
+        float tcfpower = tcfpowerVariable.Value;
 
         // For BodyShop
         int jacebodyshop = jacebodyshopVariable.Value;
@@ -247,6 +273,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         int monthlowestbodyshop = monthlowestbodyshopVariable.Value;
         int averagebodyshop = averagebodyshopVariable.Value;
         float consumptionbodyshop = consumptionbodyshopVariable.Value;
+        float bodyshoppower = bodyshoppowerVariable.Value;
 
         // For EngineShop
         int jaceengineshop = jaceengineshopVariable.Value;
@@ -255,6 +282,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         int monthlowestengineshop = monthlowestengineshopVariable.Value;
         int averageengineshop = averageengineshopVariable.Value;
         float consumptionengineshop = consumptionengineshopVariable.Value;
+        float adminpower = adminpowerVariable.Value;
 
         // For Paintshop
         int jacepaintshop = jacepaintshopVariable.Value;
@@ -263,6 +291,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         int monthlowestpaintshop = monthlowestpaintshopVariable.Value;
         int averagepaintshop = averagepaintshopVariable.Value;
         float consumptionpaintshop = consumptionpaintshopVariable.Value;
+        float paintshoppower = paintshoppowerVariable.Value;
 
 
         // For Spp
@@ -272,6 +301,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         int monthlowestspp = monthlowestsppVariable.Value;
         int averagespp = averagesppVariable.Value;
         float consumptionspp = consumptionsppVariable.Value;
+        float spppower = spppowerVariable.Value;
 
 
         // For Spare
@@ -290,6 +320,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         int average33kv = average33kvVariable.Value;
         float consumption33kv = consumption33kvVariable.Value;
         float monthconsumption = monthconsumptionVariable.Value;
+        float kv33power  = kv33powerVariable.Value;
 
         //////////////Production Count/////////////////
         int productioncount = productioncountVariable.Value;
@@ -525,7 +556,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             // For Utility
             string query1 = $" UPDATE HomePage SET Target = '" + targetutility1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'UTILITY' ";
-            string query2 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'UTILITY' ";
+            string query2 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'UTILITY' ";
 
             string query3 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'UTILITY' ";
 
@@ -535,7 +566,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             // For Stamping
             string query6 = $" UPDATE HomePage SET Target = '" + targetstamping1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'Stamping' ";
-            string query7 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'Stamping' ";
+            string query7 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Stamping' ";
 
             string query8 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'STAMPING' ";
 
@@ -545,7 +576,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             // For TCF
             string query11 = $" UPDATE HomePage SET Target = '" + targettcf1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'TCF' ";
-            string query12 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'TCF' ";
+            string query12 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'TCF' ";
 
             string query13 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'TCF' ";
 
@@ -556,7 +587,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             // For Bodyshop
             string query16 = $" UPDATE HomePage SET Target = '" + targetbodyshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'BODYSHOP' ";
-            string query17 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'BODYSHOP' ";
+            string query17 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'BODYSHOP' ";
 
             string query18 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'BODYSHOP' ";
 
@@ -567,7 +598,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             // For Engineshop ( Code for Admin)
             string query21 = $" UPDATE HomePage SET Target = '" + targetengineshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'ADMIN' ";
-            string query22 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'ADMIN' ";
+            string query22 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'ADMIN' ";
             string query23 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'ADMIN' ";
             string query24 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'ADMIN' ";
             string query25 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'ADMIN' ";
@@ -575,7 +606,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             // For Paintshop
             string query26 = $" UPDATE HomePage SET Target = '" + targetpaintshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'PAINTSHOP' ";
-            string query27 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'PAINTSHOP' ";
+            string query27 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'PAINTSHOP' ";
 
             string query28 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'PAINTSHOP' ";
 
@@ -584,7 +615,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
             // For Spp
             string query31 = $" UPDATE HomePage SET Target = '" + targetspp1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'SPP' ";
-            string query32 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = 'SPP' ";
+            string query32 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'SPP' ";
 
             string query33 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'SPP' ";
 
@@ -592,14 +623,14 @@ public class HomePageComparisionLogic : BaseNetLogic
             string query35 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'SPP' ";
             // For Spare
             string query36 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + new123 + " 08:00:00' AND '" + new123 + " 07:59:59' AND Jace = 'Utility' ";
-            string query37 = $"SELECT MIN(Consumption) FROM ConsumptionDistribution WHERE Year = '" + year + "' AND Jace = 'Utility' ";
+            string query37 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Utility' ";
             string query38 = $"SELECT MIN(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'Utility' ";
             string query39 = $"SELECT AVG(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'Utility' ";
             string query40 = $"SELECT Consumption FROM ConsumptionDistribution WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Utility' ";
 
             // For 33KV
             string query41 = $" UPDATE HomePage SET Target = '" + target33KV + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = '33KV' ";
-            string query42 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE Year = '" + year123 + "' AND Jace = '33KV' ";
+            string query42 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '33KV' ";
 
             string query43 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = '33KV' ";
 
@@ -705,8 +736,8 @@ public class HomePageComparisionLogic : BaseNetLogic
             if (rowCount2 > 0 && columnCount2 > 0)
             {
                 var column1 = Convert.ToInt32(resultSet2[0, 0]);
-                var Yearlowest = column1;
-                yearlowest = Yearlowest;
+                var UtilityPower = column1;
+                utilitypower = UtilityPower;
             }
 
 
@@ -757,8 +788,8 @@ public class HomePageComparisionLogic : BaseNetLogic
             if (rowCount7 > 0 && columnCount7 > 0)
             {
                 var column1 = Convert.ToInt32(resultSet7[0, 0]);
-                var YearlowestStamping = column1;
-                yearloweststamping = YearlowestStamping;
+                var StampingPower = column1;
+                stampingpower = StampingPower;
             }
 
 
@@ -809,8 +840,8 @@ public class HomePageComparisionLogic : BaseNetLogic
             if (rowCount12 > 0 && columnCount12 > 0)
             {
                 var column1 = Convert.ToInt32(resultSet12[0, 0]);
-                var YearlowestTcf = column1;
-                yearlowesttcf = YearlowestTcf;
+                var TcfPower = column1;
+                tcfpower = TcfPower;
             }
 
 
@@ -860,8 +891,8 @@ public class HomePageComparisionLogic : BaseNetLogic
             if (rowCount17 > 0 && columnCount17 > 0)
             {
                 var column1 = Convert.ToInt32(resultSet17[0, 0]);
-                var YearlowestBodyshop = column1;
-                yearlowestbodyshop = YearlowestBodyshop;
+                var BodyshopPower = column1;
+                bodyshoppower = BodyshopPower;
             }
 
 
@@ -912,8 +943,8 @@ public class HomePageComparisionLogic : BaseNetLogic
             if (rowCount22 > 0 && columnCount22 > 0)
             {
                 var column1 = Convert.ToInt32(resultSet22[0, 0]);
-                var YearlowestEngineshop = column1;
-                yearlowestengineshop = YearlowestEngineshop;
+                var AdminPower = column1;
+                adminpower = AdminPower;
             }
 
 
@@ -965,8 +996,8 @@ public class HomePageComparisionLogic : BaseNetLogic
             if (rowCount27 > 0 && columnCount27 > 0)
             {
                 var column1 = Convert.ToInt32(resultSet27[0, 0]);
-                var YearlowestPaintshop = column1;
-                yearlowestpaintshop = YearlowestPaintshop;
+                var PaintshopPower = column1;
+               paintshoppower = PaintshopPower;
             }
 
 
@@ -1018,8 +1049,8 @@ public class HomePageComparisionLogic : BaseNetLogic
             if (rowCount32 > 0 && columnCount32 > 0)
             {
                 var column1 = Convert.ToInt32(resultSet32[0, 0]);
-                var YearlowestSpp = column1;
-                yearlowestspp = YearlowestSpp;
+                var SppPower = column1;
+                spppower = SppPower;
             }
 
 
@@ -1122,8 +1153,8 @@ public class HomePageComparisionLogic : BaseNetLogic
             if (rowCount42 > 0 && columnCount42 > 0)
             {
                 var column1 = Convert.ToInt32(resultSet42[0, 0]);
-                var Yearlowest33KV = column1;
-                yearlowest33kv = Yearlowest33KV;
+                var KV33Power = column1;
+                kv33power = KV33Power;
             }
 
 
@@ -1193,28 +1224,28 @@ public class HomePageComparisionLogic : BaseNetLogic
         date1Variable.Value = date1;
         // For Utility
         //targetVariable.Value = target;
-        yearlowestVariable.Value = yearlowest;
+        utilitypowerVariable.Value = utilitypower;
         monthlowestVariable.Value = monthlowest;
         averageVariable.Value = average;
         consumptionVariable.Value = consumption;
 
         // For Stamping
         //targetstampingVariable.Value = targetstamping;
-        yearloweststampingVariable.Value = yearloweststamping;
+        stampingpowerVariable.Value = stampingpower;
         monthloweststampingVariable.Value = monthloweststamping;
         averagestampingVariable.Value = averagestamping;
         consumptionstampingVariable.Value = consumptionstamping;
 
         // For TCF
         //targettcfVariable.Value = targettcf;
-        yearlowesttcfVariable.Value = yearlowesttcf;
+        tcfpowerVariable.Value = tcfpower;
         monthlowesttcfVariable.Value = monthlowesttcf;
         averagetcfVariable.Value = averagetcf;
         consumptiontcfVariable.Value = consumptiontcf;
 
         // For Bodyshop
         //targetbodyshopVariable.Value = targetbodyshop;
-        yearlowestbodyshopVariable.Value = yearlowestbodyshop;
+        bodyshoppowerVariable.Value = bodyshoppower;
         monthlowestbodyshopVariable.Value = monthlowestbodyshop;
         averagebodyshopVariable.Value = averagebodyshop;
         consumptionbodyshopVariable.Value = consumptionbodyshop;
@@ -1222,7 +1253,7 @@ public class HomePageComparisionLogic : BaseNetLogic
 
         // For Engineshop
         //targetengineshopVariable.Value = targetengineshop;
-        yearlowestengineshopVariable.Value = yearlowestengineshop;
+        adminpowerVariable.Value = adminpower;
         monthlowestengineshopVariable.Value = monthlowestengineshop;
         averageengineshopVariable.Value = averageengineshop;
         consumptionengineshopVariable.Value = consumptionengineshop;
@@ -1230,14 +1261,14 @@ public class HomePageComparisionLogic : BaseNetLogic
 
         // For Paintshop
         //targetpaintshopVariable.Value = targetpaintshop;
-        yearlowestpaintshopVariable.Value = yearlowestpaintshop;
+        paintshoppowerVariable.Value = paintshoppower;
         monthlowestpaintshopVariable.Value = monthlowestpaintshop;
         averagepaintshopVariable.Value = averagepaintshop;
         consumptionpaintshopVariable.Value = consumptionpaintshop;
 
         // For Spp
         //targetsppVariable.Value = targetspp;
-        yearlowestsppVariable.Value = yearlowestspp;
+        spppowerVariable.Value = spppower;
         monthlowestsppVariable.Value = monthlowestspp;
         averagesppVariable.Value = averagespp;
         consumptionsppVariable.Value = consumptionspp;
@@ -1253,7 +1284,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         // For 33KV
         //
         //target33kvVariable.Value = target33kv;
-        yearlowest33kvVariable.Value = yearlowest33kv;
+        kv33powerVariable.Value = kv33power;
         monthlowest33kvVariable.Value = monthlowest33kv;
         average33kvVariable.Value = average33kv;
         consumption33kvVariable.Value = consumption33kv;

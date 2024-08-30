@@ -16809,6 +16809,42 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+  - Name: KV33Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: UtilityPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: BodyshopPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: StampingPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AdminPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: PaintshopPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: SppPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TcfPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TcfPower1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
 - Name: HomePageComparisionPanel1
   Type: HomePageComparisionPanel
   Children:
@@ -17134,6 +17170,42 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+  - Name: KV33Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: UtilityPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: BodyshopPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: StampingPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AdminPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: PaintshopPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: SppPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TcfPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TcfPower1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
 - Name: HomePageComparisionPanelInstance
   Type: HomePageComparisionPanel
   Children:
@@ -17469,6 +17541,42 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+  - Name: KV33Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: UtilityPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: BodyshopPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: StampingPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AdminPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: PaintshopPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: SppPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TcfPower
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TcfPower1
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
 - Name: MeterSelectionForPanels
   Id: g=325a923e224c701331f2ef17763539e8
   Type: BaseDataVariableType

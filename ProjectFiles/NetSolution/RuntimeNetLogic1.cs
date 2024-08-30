@@ -117,10 +117,10 @@ public class RuntimeNetLogic1 : BaseNetLogic
             timerange = difference.ToString(@"dd\:hh\:mm\:ss"); // ya aap apne hisab se date format mein set karein
 
 
-            string query1 = $"SELECT  SUM(Consumption) FROM HourlyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '"+ jace1 + "' ";
+            string query1 = $"SELECT  SUM(Consumption) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '"+ jace1 + "' ";
             //string query2 = $"SELECT  MIN(Consumption) FROM DailyConsumption WHERE  LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
-            string query3 = $"SELECT  AVG(Avg_PF) FROM HourlyJaceDataLogger  WHERE  Timestamp BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
-            string query4 = $"SELECT  AVG(Frequency) FROM HourlyJaceDataLogger  WHERE  Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
+            string query3 = $"SELECT  AVG(Avg_PF) FROM DailyJaceDataLogger  WHERE  Timestamp BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
+            string query4 = $"SELECT  AVG(Frequency) FROM DailyJaceDataLogger  WHERE  Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
 
 
             myStore1.Query(query1, out header1, out resultSet1);

@@ -923,6 +923,10 @@ Children:
           Type: StoreColumn
           DataType: Int32
           Value: 0
+        - Name: Active_Power_Total
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
     - Name: HourlyJaceDataLogger
       Type: ODBCStoreTable
       Children:
