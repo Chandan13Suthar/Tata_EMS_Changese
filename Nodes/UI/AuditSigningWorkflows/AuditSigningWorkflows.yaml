@@ -3318,7 +3318,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Tata_EMS_Changese/DataStores/EDB_AuditTrail"
+    Value: {"IdType":2,"Id":"8bd0f044deb71b602a941e8edf671c20","Namespace":36}
     Children:
     - Name: Kind
       Type: PropertyType
