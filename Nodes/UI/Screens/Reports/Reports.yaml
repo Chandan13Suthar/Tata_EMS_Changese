@@ -12000,7 +12000,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             ModellingRule: Optional
-            Value: false
+            Value: true
           - Name: Enabled
             Type: BaseDataVariableType
             DataType: Boolean
@@ -12032,7 +12032,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Value: "/Objects/Tata_EMS_Changese/UI/NavigationSystem/HomePage3"
 - Name: Monthly_Report
   Id: g=8a4a4d286ed2bf30e62e0e91a7c62725
   Supertype: BaseScreen
@@ -25975,7 +25975,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Value: "/Objects/Tata_EMS_Changese/UI/NavigationSystem/HomePage3"
 - Name: ConsumptionReport
   Id: g=f75505a58599f5374de8b854f1401693
   Supertype: BaseScreen
@@ -27329,7 +27329,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Value: "/Objects/Tata_EMS_Changese/UI/NavigationSystem/HomePage3"
 - Name: AlarmReport
   Id: g=b621e954d00b1bfe5497d428ef4d5734
   Supertype: BaseScreen
@@ -31035,7 +31035,7 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Value: "/Objects/Tata_EMS_Changese/UI/NavigationSystem/HomePage3"
 - File: UserEditor/UserEditor.yaml
 - Name: ButtonSelection1
   Id: g=c4f7d4d80d2883ae073fc7eeb69fd6c1

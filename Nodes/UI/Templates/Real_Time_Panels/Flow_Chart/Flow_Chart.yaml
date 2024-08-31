@@ -1218,7 +1218,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -2217,7 +2217,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -3216,7 +3216,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -4215,7 +4215,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -5214,7 +5214,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -6213,7 +6213,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -7212,7 +7212,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -8211,7 +8211,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -9210,7 +9210,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -10209,7 +10209,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -11208,7 +11208,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -12207,7 +12207,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -13206,7 +13206,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment
@@ -14205,7 +14205,7 @@ Children:
                   Type: BaseVariableType
                   DataType: HorizontalAlignment
                   ModellingRule: Optional
-                  Value: 2
+                  Value: 3
                 - Name: VerticalAlignment
                   Type: BaseVariableType
                   DataType: VerticalAlignment

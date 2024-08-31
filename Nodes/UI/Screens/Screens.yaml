@@ -6,10 +6,6 @@ Children:
 - File: Reports/Reports.yaml
 - File: Alarms/Alarms.yaml
 - File: UsersManagement/UsersManagement.yaml
-- Name: Screen1
-  Id: g=dfe8293253237e2c53874f7ff4f4a644
-  Supertype: Screen
-  ReferenceType: HasComponent
 - File: JACE_Selected_Panel/JACE_Selected_Panel.yaml
 - Name: RemotePDFViewer
   Id: g=c3132faec94573a6c9a6b63dd4e19e3e

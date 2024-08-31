@@ -775,6 +775,11 @@ Children:
                             Type: DynamicLink
                             DataType: NodePath
                             Value: "../../../Variable1"
+                        - Name: VerticalAlignment
+                          Type: BaseVariableType
+                          DataType: VerticalAlignment
+                          ModellingRule: Optional
+                          Value: 2
                   - Name: DataShow_ResultBox1
                     Type: DataShow_ResultBox
                     Children:
@@ -8497,6 +8502,26 @@ Children:
                             Type: DynamicLink
                             DataType: NodePath
                             Value: "../../../Variable1"
+                        - Name: FontSize
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 12.0
+                        - Name: TextVerticalAlignment
+                          Type: BaseVariableType
+                          DataType: TextVerticalAlignment
+                          ModellingRule: Optional
+                          Value: 1
+                        - Name: VerticalAlignment
+                          Type: BaseVariableType
+                          DataType: VerticalAlignment
+                          ModellingRule: Optional
+                          Value: 2
+                        - Name: TopMargin
+                          Type: BaseVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 15.0
                   - Name: DataShow_ResultBox144
                     Type: DataShow_ResultBox
                     Children:
@@ -9091,6 +9116,16 @@ Children:
                             Type: DynamicLink
                             DataType: NodePath
                             Value: "../../../Variable1"
+                        - Name: FontSize
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 12.0
+                        - Name: TopMargin
+                          Type: BaseVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 15.0
                     - Name: HorizontalAlignment
                       Type: BaseVariableType
                       DataType: HorizontalAlignment
@@ -16126,4 +16161,4 @@ Children:
   - Name: Screen name
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Value: "/Objects/Tata_EMS_Changese/UI/NavigationSystem/HomePage3"
