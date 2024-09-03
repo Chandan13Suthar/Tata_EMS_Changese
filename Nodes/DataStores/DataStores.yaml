@@ -679,6 +679,10 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
+        - Name: Avg_Current
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
     - Name: HourlyJaceDataLogger
       Type: ODBCStoreTable
       Children:
