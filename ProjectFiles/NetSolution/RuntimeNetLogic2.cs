@@ -44,8 +44,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
         infoVariable = owner.INFOVariable;
 
         //Utility
-        jaceVariable = owner.JaceVariable;
-        meterVariable = owner.MeterVariable;
+           jaceVariable = owner.JaceUtiVariable;
+            meterVariable = owner.MeterUtiVariable;
         targetVariable = owner.TargetVariable;
         yearlowestVariable = owner.YearlowestVariable;
         monthlowestVariable = owner.MonthlowestVariable;
@@ -307,8 +307,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
 
         ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
         // For Utility
-        object[,] resultSet1;
-        string[] header1;
+     //   object[,] resultSet1;
+     //   string[] header1;
         object[,] resultSet2;
         string[] header2;
         object[,] resultSet3;
@@ -319,8 +319,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
         string[] header5;
 
         // For Stamping
-        object[,] resultSet6;
-        string[] header6;
+        //   object[,] resultSet6;
+        //  string[] header6;
         object[,] resultSet7;
         string[] header7;
         object[,] resultSet8;
@@ -331,8 +331,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
         string[] header10;
 
         // For TCF
-        object[,] resultSet11;
-        string[] header11;
+        //   object[,] resultSet11;
+        //   string[] header11;
         object[,] resultSet12;
         string[] header12;
         object[,] resultSet13;
@@ -344,8 +344,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
 
 
         // For Bodyshop
-        object[,] resultSet16;
-        string[] header16;
+        //   object[,] resultSet16;
+        //   string[] header16;
         object[,] resultSet17;
         string[] header17;
         object[,] resultSet18;
@@ -356,8 +356,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
         string[] header20;
 
         // For Engineshop
-        object[,] resultSet21;
-        string[] header21;
+        //   object[,] resultSet21;
+        //    string[] header21;
         object[,] resultSet22;
         string[] header22;
         object[,] resultSet23;
@@ -368,8 +368,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
         string[] header25;
 
         // For Paintshop
-        object[,] resultSet26;
-        string[] header26;
+        //   object[,] resultSet26;
+        //    string[] header26;
         object[,] resultSet27;
         string[] header27;
         object[,] resultSet28;
@@ -380,8 +380,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
         string[] header30;
 
         // For Spp
-        object[,] resultSet31;
-        string[] header31;
+        //   object[,] resultSet31;
+        //   string[] header31;
         object[,] resultSet32;
         string[] header32;
         object[,] resultSet33;
@@ -392,8 +392,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
         string[] header35;
 
         // For Spare
-        object[,] resultSet36;
-        string[] header36;
+        //    object[,] resultSet36;
+        //     string[] header36;
         object[,] resultSet37;
         string[] header37;
         object[,] resultSet38;
@@ -405,8 +405,8 @@ public class RuntimeNetLogic2 : BaseNetLogic
 
 
         // For 33KV
-        object[,] resultSet41;
-        string[] header41;
+        //    object[,] resultSet41;
+        //    string[] header41;
         object[,] resultSet42;
         string[] header42;
         object[,] resultSet43;

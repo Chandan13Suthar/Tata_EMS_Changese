@@ -1082,7 +1082,7 @@ Children:
       - Name: AxisColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#000000"
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -1102,18 +1102,18 @@ Children:
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
-        Value: 800
+        Value: 950
     - Name: ChartStyle2
       Type: ChartStyle
       Children:
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#2a3c46"
+        Value: "#000000"
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#f0f0f0"
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -1121,11 +1121,11 @@ Children:
       - Name: AxisColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#2a3c46"
+        Value: "#ffffff"
       - Name: GridColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#c4ced7"
+        Value: "#00000000"
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font

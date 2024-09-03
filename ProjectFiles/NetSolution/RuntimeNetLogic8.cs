@@ -125,7 +125,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         day29Variable = owner.Day29Variable;
         day30Variable = owner.Day30Variable;
         day31Variable = owner.Day31Variable;
-        jaceVariable = owner.JaceVariable;
+     //   jaceVariable = owner.JaceVariable;
         refreshbVariable = owner.RefreshBVariable;
         powerVariable = owner.PowerVariable;
         currentVariable = owner.CurrentVariable;
@@ -190,7 +190,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         float day29 = day29Variable.Value;
         float day30 = day30Variable.Value;
         float day31 = day31Variable.Value;
-        string jace = jaceVariable.Value;
+       // string jace = jaceVariable.Value;
         int refresh = refreshbVariable.Value;
         float power = powerVariable.Value;
         float current = currentVariable.Value;
@@ -363,7 +363,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
                 DateTime currentTime = DateTime.Now;
                 //string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
                string jace1 = selection.ToString();
-            string jace2 = jace.ToString();
+        //    string jace2 = jace.ToString();
             // Calculate start and end times for the current day
             DateTime startTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 0, 0, 0);
                // DateTime endTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 7, 59, 59).AddDays(1);

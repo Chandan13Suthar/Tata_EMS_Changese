@@ -44,8 +44,8 @@ public class RuntimeLogicConsumption : BaseNetLogic
         infoVariable = owner.INFOVariable;
 
         //Utility
-        jaceVariable = owner.JaceVariable;
-        meterVariable = owner.MeterVariable;
+     //   jaceVariable = owner.JaceVariable;
+      //  meterVariable = owner.MeterVariable;
         targetVariable = owner.TargetVariable;
         yearlowestVariable = owner.YearlowestVariable;
         monthlowestVariable = owner.MonthlowestVariable;
@@ -154,8 +154,8 @@ public class RuntimeLogicConsumption : BaseNetLogic
 
 
         //For Utility
-        int jace = jaceVariable.Value;
-        int meter = meterVariable.Value;
+      //  int jace = jaceVariable.Value;
+      //  int meter = meterVariable.Value;
         int target = targetVariable.Value;
         int yearlowest = yearlowestVariable.Value;
         int monthlowest = monthlowestVariable.Value;

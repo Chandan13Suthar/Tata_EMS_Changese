@@ -1379,11 +1379,6 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
-  - Name: EditFavoriteTilesLogic
-    Type: NetLogic
-    Children:
-    - Class: Method
-      Name: ToggleFavorite
   - Name: Tile_Description
     Type: BaseDataVariableType
     DataType: LocalizedText

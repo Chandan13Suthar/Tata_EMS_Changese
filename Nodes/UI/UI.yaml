@@ -39,15 +39,6 @@ Children:
       Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
     Type: BaseObjectType
-  - Name: Session
-    Type: NodePointer
-    DataType: NodeId
-    Value: "/Objects/Tata_EMS_Changese/UI/CustomUISession"
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: "/Types/ObjectTypes/BaseObjectType/SessionType/UISession"
 - Name: WebPresentationEngine
   Type: ns=32;PresentationEngine
   Children:
