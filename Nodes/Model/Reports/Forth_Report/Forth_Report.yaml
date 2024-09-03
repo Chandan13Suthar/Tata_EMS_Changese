@@ -5560,7 +5560,6 @@ Children:
   Name: Utility
   Id: g=197b633cf4bfb6b23e6561dfb52657a7
   Supertype: Enumeration
-  ReferenceType: HasComponent
   Children:
   - Name: ns=0;EnumValues
     Type: BaseDataVariableType
@@ -5609,7 +5608,6 @@ Children:
   Name: TCF
   Id: g=e111cc1e2b63676daf7ed9f2da5e7f97
   Supertype: Enumeration
-  ReferenceType: HasComponent
   Children:
   - Name: ns=0;EnumValues
     Type: BaseDataVariableType
@@ -5622,7 +5620,6 @@ Children:
   Name: Stamping
   Id: g=15b762a72d3f19e12dafc8c33521eace
   Supertype: Enumeration
-  ReferenceType: HasComponent
   Children:
   - Name: ns=0;EnumValues
     Type: BaseDataVariableType
@@ -5647,7 +5644,6 @@ Children:
   Name: SPP
   Id: g=f290147323d1901058a0158febd56d94
   Supertype: Enumeration
-  ReferenceType: HasComponent
   Children:
   - Name: ns=0;EnumValues
     Type: BaseDataVariableType
