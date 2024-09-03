@@ -20014,7 +20014,7 @@ Children:
           - Name: BorderColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#00000000"
+            Value: "#000000"
           - Name: arrow_border
             Type: Image
             Children:
