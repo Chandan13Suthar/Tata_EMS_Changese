@@ -75,6 +75,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
     private IUAVariable jaceVariable;
     private IUAVariable refreshbVariable;
     private IUAVariable powerVariable;
+    private IUAVariable currentVariable;
     private PeriodicTask periodicTask;
    
     public override void Start()
@@ -127,6 +128,8 @@ public class RuntimeNetLogic8 : BaseNetLogic
         jaceVariable = owner.JaceVariable;
         refreshbVariable = owner.RefreshBVariable;
         powerVariable = owner.PowerVariable;
+        currentVariable = owner.CurrentVariable;
+
 
 
 
@@ -190,6 +193,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         string jace = jaceVariable.Value;
         int refresh = refreshbVariable.Value;
         float power = powerVariable.Value;
+        float current = currentVariable.Value;
 
 
         var project = FTOptix.HMIProject.Project.Current;
@@ -233,6 +237,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         var myStore36 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
         var myStore37 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
         var myStore38 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
+        var myStore39 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
 
 
         object[,] resultSet1;
@@ -346,6 +351,8 @@ public class RuntimeNetLogic8 : BaseNetLogic
 
         object[,] resultSet38;
         string[] header38;
+        object[,] resultSet39;
+        string[] header39;
 
         if (button == true)
       {
@@ -400,9 +407,10 @@ public class RuntimeNetLogic8 : BaseNetLogic
                 string query35 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '29' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
                 string query36 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '30' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
                 string query37 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '31' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query38 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "'";   
+                string query38 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "'";
+                string query39 = $"SELECT Avg_Current FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "'";
 
-                 myStore1.Query(query1, out header1, out resultSet1);
+            myStore1.Query(query1, out header1, out resultSet1);
                  myStore2.Query(query2, out header2, out resultSet2);
                  myStore3.Query(query3, out header3, out resultSet3);
                  myStore4.Query(query4, out header4, out resultSet4);
@@ -444,6 +452,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
             myStore36.Query(query36, out header36, out resultSet36);
             myStore37.Query(query37, out header37, out resultSet37);
             myStore38.Query(query38, out header38, out resultSet38);
+            myStore39.Query(query39, out header39, out resultSet39);
 
 
             if (resultSet1 != null && resultSet1.GetLength(0) > 0 && header1 != null && header1.Length > 0)
@@ -620,6 +629,11 @@ public class RuntimeNetLogic8 : BaseNetLogic
             {
                 float.TryParse(resultSet38[0, 0]?.ToString(), out power);
             }
+          
+            if (resultSet39 != null && resultSet39.GetLength(0) > 0 && header39 != null && header39.Length > 0)
+            {
+                float.TryParse(resultSet39[0, 0]?.ToString(), out current);
+            }
 
 
 
@@ -677,7 +691,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         day31Variable.Value = day31;
         refreshbVariable.Value = refresh;
         powerVariable.Value = power;
-
+        currentVariable.Value = current;
 
 
 
