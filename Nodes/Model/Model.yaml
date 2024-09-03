@@ -15213,6 +15213,10 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/Tata_EMS_Changese/Model/RefreshHomePage"
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
 - Name: HomePageNew
   Id: g=e202063b9b77d674d04af72a94a04c4c
   Supertype: BaseObjectType
@@ -15854,6 +15858,10 @@ Children:
         DataType: DynamicLinkMode
         ModellingRule: Optional
         Value: 2
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
 - Name: HomePageNew1
   Type: HomePageNew
   Children:
@@ -16435,6 +16443,10 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/Tata_EMS_Changese/Model/RefreshHomePage"
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
 - Name: HomePageComparisionPanel
   Id: g=4130c04dc48e2f4b6a05645c7d2b48e1
   Supertype: BaseObjectType
