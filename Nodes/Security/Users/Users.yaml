@@ -10,7 +10,7 @@ Children:
     Id: g=8ca37709476f3f55f518b4189664f392
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
+    Value: false
   - Name: User_Blocked
     Id: g=41f4525d0105a655d3af7d4544479d6c
     Type: BaseDataVariableType
@@ -25,7 +25,7 @@ Children:
     Id: g=990e8543bdbc065dfda3c7bb786df702
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
+    Value: 100
   - Name: User_Active
     Id: g=9cf3595069e20085e239e744e892b9e8
     Type: BaseDataVariableType

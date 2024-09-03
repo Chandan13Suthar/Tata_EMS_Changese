@@ -2035,6 +2035,11 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 63.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ff0000"
           - Name: Phase1_led
             Type: Led
             Children:
