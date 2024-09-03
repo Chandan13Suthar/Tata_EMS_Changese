@@ -1140,7 +1140,7 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#00000000"
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -1148,11 +1148,11 @@ Children:
       - Name: GridColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#c4ced7"
+        Value: "#075982"
       - Name: AxisColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#2a3c46"
+        Value: "#000000"
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
