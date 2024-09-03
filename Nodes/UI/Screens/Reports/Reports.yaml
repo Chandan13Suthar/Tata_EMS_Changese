@@ -2822,7 +2822,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 55.0
+              Value: 49.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -2832,7 +2832,7 @@ Children:
               Type: BaseDataVariableType
               DataType: DateTimePickerInputFormatEnum
               ModellingRule: Optional
-              Value: 2
+              Value: 1
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -2852,7 +2852,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 100.0
+              Value: 120.0
           - Name: DateAndTime2
             Type: DateTimePicker
             Children:
@@ -2875,7 +2875,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 210.0
+              Value: 199.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -2885,7 +2885,7 @@ Children:
               Type: BaseDataVariableType
               DataType: DateTimePickerInputFormatEnum
               ModellingRule: Optional
-              Value: 2
+              Value: 1
             - Name: Height
               Type: BaseVariableType
               DataType: Size
@@ -2905,7 +2905,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 100.0
+              Value: 130.0
           - Name: Label2
             Type: Label
             Children:
@@ -11851,6 +11851,11 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
         - Name: CheckBox2
           Type: CheckBox
           Children:
@@ -12000,7 +12005,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             ModellingRule: Optional
-            Value: true
+            Value: false
           - Name: Enabled
             Type: BaseDataVariableType
             DataType: Boolean
@@ -25310,17 +25315,22 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 956.0
+            Value: 925.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 119.0
+            Value: -71.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 89.0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
         - Name: PanelLoader1
           Type: PanelLoader
           Children:
@@ -25402,12 +25412,17 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 761.0
+            Value: 730.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 144.0
+            Value: -46.0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
         - Name: Label5
           Type: Label
           Children:
@@ -25419,17 +25434,22 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1045.0
+            Value: 1014.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 129.0
+            Value: -61.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 89.0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
         - Name: Label6
           Type: Label
           Children:
@@ -25446,17 +25466,22 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1045.0
+            Value: 1014.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 130.0
+            Value: -60.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 89.0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
         - Name: Label4
           Type: Label
           Children:
@@ -25653,17 +25678,22 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1046.0
+            Value: 1015.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 110.0
+            Value: -80.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 89.0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
         - Name: CheckBox1
           Type: CheckBox
           Children:
@@ -25809,6 +25839,11 @@ Children:
                 Type: PropertyType
                 DataType: UInt16
                 Value: 0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
         - Name: CheckBox2
           Type: CheckBox
           Children:
@@ -25954,6 +25989,11 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 164.0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -30446,6 +30486,11 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 26.0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
       - Name: Label1
         Type: Label
         Children:
@@ -30850,6 +30895,11 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: Visible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
       - Name: CheckBox2
         Type: CheckBox
         Children:
@@ -30995,6 +31045,11 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 164.0
+        - Name: Visible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText

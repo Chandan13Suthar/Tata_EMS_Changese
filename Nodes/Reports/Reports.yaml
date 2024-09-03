@@ -7876,7 +7876,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -7975,7 +7975,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8074,7 +8074,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -8671,7 +8671,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -9038,7 +9038,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -9916,7 +9916,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -10113,7 +10113,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -10212,7 +10212,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -10311,7 +10311,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -10410,7 +10410,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -10620,7 +10620,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -10719,7 +10719,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -10818,7 +10818,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -11015,7 +11015,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -11114,7 +11114,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -12493,7 +12493,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -12886,7 +12886,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -12985,7 +12985,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -13084,7 +13084,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -13183,7 +13183,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -13724,7 +13724,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -14287,7 +14287,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -14386,7 +14386,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -14485,7 +14485,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -14584,7 +14584,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -15201,7 +15201,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
           - Name: Consumption_Paintshop
             Type: ReportLabel
             Children:
@@ -15300,7 +15300,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
           - Name: Label43
             Type: ReportLabel
             Children:
@@ -15595,7 +15595,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
           - Name: Monthlowest_Paintshop
             Type: ReportLabel
             Children:
@@ -15694,7 +15694,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
           - Name: Label45
             Type: ReportLabel
             Children:
@@ -15989,7 +15989,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
         - Name: Image6
           Type: ReportImage
           Children:
@@ -16399,7 +16399,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: FontFamily
               Type: BaseDataVariableType
               DataType: Font
@@ -16770,7 +16770,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: FontFamily
               Type: BaseDataVariableType
               DataType: Font
@@ -16873,7 +16873,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: FontFamily
               Type: BaseDataVariableType
               DataType: Font
@@ -17172,7 +17172,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: FontFamily
               Type: BaseDataVariableType
               DataType: Font
@@ -17373,7 +17373,7 @@ Children:
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
-              Value: 12.0
+              Value: 10.0
             - Name: FontFamily
               Type: BaseDataVariableType
               DataType: Font
