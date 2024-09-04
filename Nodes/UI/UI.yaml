@@ -328,47 +328,6 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
-    - Name: WebBrowser
-      Type: WebBrowser
-      Children:
-      - Name: URL
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=36;%PROJECTDIR%/eCharts8/Test.html"
-      - Class: Reference
-        Target: ns=5;i=354
-        Direction: Forward
-      - Class: Reference
-        Target: ns=5;i=356
-        Direction: Forward
-      - Class: Reference
-        Target: ns=5;i=358
-        Direction: Forward
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1220.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 2
-    - Name: eChartTest8Logic
-      Type: NetLogic
-      Children:
-      - Class: Method
-        Name: OnRefreshButtonClicked
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
@@ -4620,47 +4579,6 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
-    - Name: WebBrowser
-      Type: WebBrowser
-      Children:
-      - Name: URL
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=36;%PROJECTDIR%/eCharts8/Test.html"
-      - Class: Reference
-        Target: ns=5;i=354
-        Direction: Forward
-      - Class: Reference
-        Target: ns=5;i=356
-        Direction: Forward
-      - Class: Reference
-        Target: ns=5;i=358
-        Direction: Forward
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1220.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 2
-    - Name: eChartTest8Logic
-      Type: NetLogic
-      Children:
-      - Class: Method
-        Name: OnRefreshButtonClicked
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
@@ -8927,47 +8845,6 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
-    - Name: WebBrowser
-      Type: WebBrowser
-      Children:
-      - Name: URL
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=36;%PROJECTDIR%/eCharts8/Test.html"
-      - Class: Reference
-        Target: ns=5;i=354
-        Direction: Forward
-      - Class: Reference
-        Target: ns=5;i=356
-        Direction: Forward
-      - Class: Reference
-        Target: ns=5;i=358
-        Direction: Forward
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1220.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 2
-    - Name: eChartTest8Logic
-      Type: NetLogic
-      Children:
-      - Class: Method
-        Name: OnRefreshButtonClicked
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
