@@ -1,30 +1,8 @@
 #region Using directives
 using System;
 using UAManagedCore;
-using OpcUa = UAManagedCore.OpcUa;
-using FTOptix.DataLogger;
-using FTOptix.HMIProject;
 using FTOptix.NetLogic;
-using FTOptix.NativeUI;
-using FTOptix.UI;
-using FTOptix.CoreBase;
-using FTOptix.Store;
-using FTOptix.ODBCStore;
-using FTOptix.Report;
-using FTOptix.RAEtherNetIP;
-using FTOptix.Retentivity;
-using FTOptix.CommunicationDriver;
-using FTOptix.Core;
 using Store = FTOptix.Store;
-using System.Text.RegularExpressions;
-using FTOptix.SQLiteStore;
-using System.Data;
-using System.Linq;
-using System.Data.SqlClient;
-using System.Reflection.Emit;
-using FTOptix.MicroController;
-using FTOptix.AuditSigning;
-using FTOptix.Alarm;
 using System.Threading;
 #endregion
 public class RuntimeNetLogic8 : BaseNetLogic
@@ -130,18 +108,14 @@ public class RuntimeNetLogic8 : BaseNetLogic
         powerVariable = owner.PowerVariable;
         currentVariable = owner.CurrentVariable;
 
-
-
-
-
-        periodicTask = new PeriodicTask(HomePageCalculationTask, 2000, LogicObject);
-        periodicTask.Start();
+      periodicTask = new PeriodicTask(HomePageCalculationTask, 5000, LogicObject);
+       periodicTask.Start();
 
     }
 
     public override void Stop()
     {
-        periodicTask.Dispose();
+       periodicTask.Dispose();
         periodicTask = null;
     }
 
@@ -199,46 +173,8 @@ public class RuntimeNetLogic8 : BaseNetLogic
         var project = FTOptix.HMIProject.Project.Current;
 
 
-        var myStore1 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore2 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore3 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore4 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore5 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-       // var myStore6 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore7 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore8 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore9 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore10 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore11 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore12 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore13 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore14 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore15 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore16 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore17 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore18 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore19 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore20 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore21 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore22 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore23 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore24 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore25 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore26 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore27 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore28 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore29 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore30 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore31 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore32 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore33 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore34 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore35 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore36 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore37 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore38 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        var myStore39 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-
+        var myStore = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
+        
 
         object[,] resultSet1;
         string[] header1;
@@ -356,106 +292,53 @@ public class RuntimeNetLogic8 : BaseNetLogic
 
         if (button == true)
       {
-
-            
-            
-
-                DateTime currentTime = DateTime.Now;
-                //string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
-               string jace1 = selection.ToString();
-        //    string jace2 = jace.ToString();
-            // Calculate start and end times for the current day
-            DateTime startTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 0, 0, 0);
-               // DateTime endTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 7, 59, 59).AddDays(1);
+                DateTime currentTime = DateTime.Now;  
+                string jace1 = selection.ToString();
+                DateTime startTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 0, 0, 0);
                 string new12 = startTime.ToString("yyyy-MM");
                 string new123 = startTime.ToString("yyyy-MM-dd");
                 
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '" + jace1 + "' ", out header1, out resultSet1);
+            myStore.Query("SELECT AVG_PF FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ", out header2, out resultSet2);
+            myStore.Query("SELECT Frequency FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ", out header3, out resultSet3);
+            myStore.Query("SELECT Voltage_LL FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ", out header4, out resultSet4);
+            myStore.Query("SELECT Voltage_LN FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ", out header5, out resultSet5);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '1' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header7, out resultSet7);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '2' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header8, out resultSet8);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '3' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header9, out resultSet9);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '4' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header10, out resultSet10);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '5' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header11, out resultSet11);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '6' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header12, out resultSet12);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '7' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header13, out resultSet13);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '8' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header14, out resultSet14);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '9' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header15, out resultSet15);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '10' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header16, out resultSet16);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '11' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header17, out resultSet17);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '12' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header18, out resultSet18);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '13' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header19, out resultSet19);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '14' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header20, out resultSet20);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '15' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header21, out resultSet21);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '16' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header22, out resultSet22);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '17' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header23, out resultSet23);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '18' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header24, out resultSet24);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '19' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header25, out resultSet25);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '20' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header26, out resultSet26);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '21' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header27, out resultSet27);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '22' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header28, out resultSet28);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '23' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header29, out resultSet29);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '24' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header30, out resultSet30);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '25' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header31, out resultSet31);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '26' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header32, out resultSet32);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '27' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header33, out resultSet33);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '28' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header34, out resultSet34);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '29' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header35, out resultSet35);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '30' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header36, out resultSet36);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '31' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ", out header37, out resultSet37);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "'", out header38, out resultSet38);
+            myStore.Query("SELECT Avg_Current FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "'", out header39, out resultSet39);
+                
 
-                string query1 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '" + jace1 + "' ";
-                string query2 = $"SELECT AVG_PF FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ";
-                string query3 = $"SELECT Frequency FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ";
-                string query4 = $"SELECT Voltage_LL FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ";
-                string query5 = $"SELECT Voltage_LN FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ";
-                string query7 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '1' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query8 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '2' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query9 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '3' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1+ "' ";
-                string query10 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '4' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query11 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '5' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query12 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '6' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query13 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '7' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query14 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '8' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query15 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '9' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query16 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '10' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query17 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '11' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query18 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '12' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query19 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '13' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query20 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '14' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query21 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '15' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query22 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '16' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query23 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '17' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query24 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '18' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query25 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '19' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query26 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '20' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query27 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '21' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query28 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '22' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query29 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '23' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query30 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '24' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query31 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '25' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query32 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '26' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query33 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '27' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query34 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '28' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query35 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '29' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query36 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '30' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query37 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '31' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-                string query38 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "'";
-                string query39 = $"SELECT Avg_Current FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "'";
-
-            myStore1.Query(query1, out header1, out resultSet1);
-                 myStore2.Query(query2, out header2, out resultSet2);
-                 myStore3.Query(query3, out header3, out resultSet3);
-                 myStore4.Query(query4, out header4, out resultSet4);
-                 myStore5.Query(query5, out header5, out resultSet5);
-           // myStore6.Query(query6, out header6, out resultSet6);
-                 myStore7.Query(query7, out header7, out resultSet7);
-                 myStore8.Query(query8, out header8, out resultSet8);
-
-            myStore9.Query(query9, out header9, out resultSet9);
-            myStore10.Query(query10, out header10, out resultSet10);
-            myStore11.Query(query11, out header11, out resultSet11);
-            myStore12.Query(query12, out header12, out resultSet12);
-            myStore13.Query(query13, out header13, out resultSet13);
-            myStore14.Query(query14, out header14, out resultSet14);
-            myStore15.Query(query15, out header15, out resultSet15);
-            myStore16.Query(query16, out header16, out resultSet16);
-
-            myStore17.Query(query17, out header17, out resultSet17);
-            myStore18.Query(query18, out header18, out resultSet18);
-            myStore19.Query(query19, out header19, out resultSet19);
-            myStore20.Query(query20, out header20, out resultSet20);
-            myStore21.Query(query21, out header21, out resultSet21);
-            myStore22.Query(query22, out header22, out resultSet22);
-            myStore23.Query(query23, out header23, out resultSet23);
-            myStore24.Query(query24, out header24, out resultSet24);
-
-            myStore25.Query(query25, out header25, out resultSet25);
-            myStore26.Query(query26, out header26, out resultSet26);
-            myStore27.Query(query27, out header27, out resultSet27);
-            myStore28.Query(query28, out header28, out resultSet28);
-            myStore29.Query(query29, out header29, out resultSet29);
-
-            myStore30.Query(query30, out header30, out resultSet30);
-            myStore31.Query(query31, out header31, out resultSet31);
-            myStore32.Query(query32, out header32, out resultSet32);
-            myStore33.Query(query33, out header33, out resultSet33);
-            myStore34.Query(query34, out header34, out resultSet34);
-            myStore35.Query(query35, out header35, out resultSet35);
-            myStore36.Query(query36, out header36, out resultSet36);
-            myStore37.Query(query37, out header37, out resultSet37);
-            myStore38.Query(query38, out header38, out resultSet38);
-            myStore39.Query(query39, out header39, out resultSet39);
-
-
-            if (resultSet1 != null && resultSet1.GetLength(0) > 0 && header1 != null && header1.Length > 0)
+                if (resultSet1 != null && resultSet1.GetLength(0) > 0 && header1 != null && header1.Length > 0)
                 {
                     float.TryParse(resultSet1[0, 0]?.ToString(), out consumption);
                 }
@@ -464,15 +347,12 @@ public class RuntimeNetLogic8 : BaseNetLogic
                 {
                     float.TryParse(resultSet2[0, 0]?.ToString(), out avgpf);
                 }
-                // Process resultSet3 (Frequency)
+               
                 if (resultSet3 != null && resultSet3.GetLength(0) > 0 && header3 != null && header3.Length > 0)
                 {
                     float.TryParse(resultSet3[0, 0]?.ToString(), out frequency);
                 }
 
-            // Process resultSet4 (Avg_PF)
-
-           
             if (resultSet4 != null && resultSet4.GetLength(0) > 0 && header4 != null && header4.Length > 0)
             {
                 float.TryParse(resultSet4[0, 0]?.ToString(), out avgll);
@@ -640,7 +520,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
 
             float tod = (consumption / target) * 100;
             todconsumption = tod;
-            Thread.Sleep(500);
+            Thread.Sleep(400);
 
             button = false;
             refresh = 0;
