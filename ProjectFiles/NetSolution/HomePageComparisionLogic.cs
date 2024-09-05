@@ -1,30 +1,8 @@
 #region Using directives
 using System;
 using UAManagedCore;
-using OpcUa = UAManagedCore.OpcUa;
-using FTOptix.DataLogger;
-using FTOptix.HMIProject;
 using FTOptix.NetLogic;
-using FTOptix.NativeUI;
-using FTOptix.UI;
-using FTOptix.CoreBase;
-using FTOptix.Store;
-using FTOptix.ODBCStore;
-using FTOptix.Report;
-using FTOptix.RAEtherNetIP;
-using FTOptix.Retentivity;
-using FTOptix.CommunicationDriver;
-using FTOptix.Core;
 using Store = FTOptix.Store;
-using System.Text.RegularExpressions;
-using FTOptix.SQLiteStore;
-using System.Data;
-using System.Linq;
-using System.Data.SqlClient;
-using System.Reflection.Emit;
-using FTOptix.MicroController;
-using FTOptix.AuditSigning;
-using FTOptix.Alarm;
 #endregion
 
 public class HomePageComparisionLogic : BaseNetLogic
@@ -217,7 +195,7 @@ public class HomePageComparisionLogic : BaseNetLogic
         spppercentageVariable = owner.SpppercentageVariable;
 
 
-        periodicTask = new PeriodicTask(IncrementDecrementTask, 2000, LogicObject);
+        periodicTask = new PeriodicTask(IncrementDecrementTask, 3000, LogicObject);
         periodicTask.Start();
 
 
@@ -339,72 +317,8 @@ public class HomePageComparisionLogic : BaseNetLogic
 
         var project = FTOptix.HMIProject.Project.Current;
         // For Utility
-        var myStore1 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
-        var myStore2 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
-        var myStore3 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//monthlowest
-        var myStore4 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
-        var myStore5 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-        // For Stamping
-        var myStore6 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
-        var myStore7 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
-        var myStore8 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
-        var myStore9 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
-        var myStore10 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-
-        // For TCF
-        var myStore11 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
-        var myStore12 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
-        var myStore13 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
-        var myStore14 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
-        var myStore15 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-
-        // For Bodyshop
-        var myStore16 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
-        var myStore17 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
-        var myStore18 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
-        var myStore19 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
-        var myStore20 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-
-
-        // For Engineshop
-        var myStore21 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
-        var myStore22 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
-        var myStore23 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
-        var myStore24 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
-        var myStore25 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-
-        // For Paintshop
-        var myStore26 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
-        var myStore27 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
-        var myStore28 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
-        var myStore29 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
-        var myStore30 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-
-        // For Spp
-        var myStore31 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
-        var myStore32 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
-        var myStore33 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
-        var myStore34 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
-        var myStore35 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-
-        // For Spare
-        var myStore36 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
-        var myStore37 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
-        var myStore38 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
-        var myStore39 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
-        var myStore40 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-
-
-        // For 33KV
-        var myStore41 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
-        var myStore42 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Yearlowest
-        var myStore43 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Monthlowest
-        var myStore44 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//average
-        var myStore45 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//consumption
-                                                                                         //////////////////////////////////Production Count Update Update////////////////////////////////////////////////
-
-        var myStore46 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Production Counts
-        var myStore47 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//MonthConsumption
+        var myStore = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");//Target
+       
 
 
         ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
@@ -526,8 +440,8 @@ public class HomePageComparisionLogic : BaseNetLogic
 
 
         ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
-        if (gbutton == true)
-        {
+       // if (gbutton == true)
+       // {
 
             DateTime currentTime = DateTime.Now;
             string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
@@ -551,169 +465,82 @@ public class HomePageComparisionLogic : BaseNetLogic
             float productioncount1 = productioncountVariable.Value;
 
             string old123 = endTime.ToString("yyyy-MM-dd"); 
-
-
-
-            // For Utility
-            string query1 = $" UPDATE HomePage SET Target = '" + targetutility1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'UTILITY' ";
-            string query2 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'UTILITY' ";
-
-            string query3 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'UTILITY' ";
-
-            string query4 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'UTILITY' ";
-            string query5 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'UTILITY' ";
-
-
-            // For Stamping
-            string query6 = $" UPDATE HomePage SET Target = '" + targetstamping1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'Stamping' ";
-            string query7 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Stamping' ";
-
-            string query8 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'STAMPING' ";
-
-            string query9 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'STAMPING' ";
-            string query10 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'STAMPING' ";
-
-
-            // For TCF
-            string query11 = $" UPDATE HomePage SET Target = '" + targettcf1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'TCF' ";
-            string query12 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'TCF' ";
-
-            string query13 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'TCF' ";
-
-            string query14 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'TCF' ";
-            string query15 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'TCF' ";
-
-
-
-            // For Bodyshop
-            string query16 = $" UPDATE HomePage SET Target = '" + targetbodyshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'BODYSHOP' ";
-            string query17 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'BODYSHOP' ";
-
-            string query18 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'BODYSHOP' ";
-
-            string query19 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'BODYSHOP' ";
-            string query20 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'BODYSHOP' ";
-
-
-
-            // For Engineshop ( Code for Admin)
-            string query21 = $" UPDATE HomePage SET Target = '" + targetengineshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'ADMIN' ";
-            string query22 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'ADMIN' ";
-            string query23 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'ADMIN' ";
-            string query24 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'ADMIN' ";
-            string query25 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'ADMIN' ";
-
-
-            // For Paintshop
-            string query26 = $" UPDATE HomePage SET Target = '" + targetpaintshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'PAINTSHOP' ";
-            string query27 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'PAINTSHOP' ";
-
-            string query28 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'PAINTSHOP' ";
-
-            string query29 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'PAINTSHOP' ";
-            string query30 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'PAINTSHOP' ";
-
-            // For Spp
-            string query31 = $" UPDATE HomePage SET Target = '" + targetspp1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'SPP' ";
-            string query32 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'SPP' ";
-
-            string query33 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'SPP' ";
-
-            string query34 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'SPP' ";
-            string query35 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'SPP' ";
-            // For Spare
-            string query36 = $"SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + new123 + " 08:00:00' AND '" + new123 + " 07:59:59' AND Jace = 'Utility' ";
-            string query37 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Utility' ";
-            string query38 = $"SELECT MIN(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'Utility' ";
-            string query39 = $"SELECT AVG(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'Utility' ";
-            string query40 = $"SELECT Consumption FROM ConsumptionDistribution WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Utility' ";
-
-            // For 33KV
-            string query41 = $" UPDATE HomePage SET Target = '" + target33KV + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = '33KV' ";
-            string query42 = $"SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '33KV' ";
-
-            string query43 = $"SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = '33KV' ";
-
-            string query44 = $"SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = '33KV' ";
-            string query45 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '33KV' ";
-
-            string query46 = $" UPDATE HomePage SET Production = '" + productioncount1 + "' WHERE LocalTimestamp BETWEEN '" + old123 + " 0:00:00' AND '" + old123 + " 23:59:59' ";
-            string query47 = $"SELECT SUM(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = '33KV' ";
+           
             //throw new Exception(query46);
 
             ////////////////////////////////*********************************************/////////////////////////////////////////////////////////////////////////// 
             // For Utility
-            myStore1.Query(query1, out header1, out resultSet1);
+            myStore.Query(" UPDATE HomePage SET Target = '" + targetutility1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'UTILITY' ", out header1, out resultSet1);
             // myStore1.Query(query1, out string[] header1, out object[,] resultSet1);
-            myStore2.Query(query2, out header2, out resultSet2);
-            myStore3.Query(query3, out header3, out resultSet3);
-            myStore4.Query(query4, out header4, out resultSet4);
-            myStore5.Query(query5, out header5, out resultSet5);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'UTILITY' ", out header2, out resultSet2);
+            myStore.Query("SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'UTILITY' ", out header3, out resultSet3);
+            myStore.Query("SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'UTILITY' ", out header4, out resultSet4);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'UTILITY' ", out header5, out resultSet5);
             // For Stamping
-            myStore6.Query(query6, out header6, out resultSet6);
-            myStore7.Query(query7, out header7, out resultSet7);
-            myStore8.Query(query8, out header8, out resultSet8);
-            myStore9.Query(query9, out header9, out resultSet9);
-            myStore10.Query(query10, out header10, out resultSet10);
+            myStore.Query(" UPDATE HomePage SET Target = '" + targetstamping1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'Stamping' ", out header6, out resultSet6);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Stamping' ", out header7, out resultSet7);
+            myStore.Query("SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'STAMPING' ", out header8, out resultSet8);
+            myStore.Query("SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'STAMPING' ", out header9, out resultSet9);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'STAMPING' ", out header10, out resultSet10);
 
             // For Tcf
-            myStore11.Query(query11, out header11, out resultSet11);
-            myStore12.Query(query12, out header12, out resultSet12);
-            myStore13.Query(query13, out header13, out resultSet13);
-            myStore14.Query(query14, out header14, out resultSet14);
-            myStore15.Query(query15, out header15, out resultSet15);
+            myStore.Query(" UPDATE HomePage SET Target = '" + targettcf1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'TCF' ", out header11, out resultSet11);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'TCF' ", out header12, out resultSet12);
+            myStore.Query("SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'TCF' ", out header13, out resultSet13);
+            myStore.Query("SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'TCF' ", out header14, out resultSet14);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'TCF' ", out header15, out resultSet15);
 
 
             // For Bodyshop
-            myStore16.Query(query16, out header16, out resultSet16);
-            myStore17.Query(query17, out header17, out resultSet17);
-            myStore18.Query(query18, out header18, out resultSet18);
-            myStore19.Query(query19, out header19, out resultSet19);
-            myStore20.Query(query20, out header20, out resultSet20);
+            myStore.Query(" UPDATE HomePage SET Target = '" + targetbodyshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'BODYSHOP' ", out header16, out resultSet16);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'BODYSHOP' ", out header17, out resultSet17);
+            myStore.Query("SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'BODYSHOP' ", out header18, out resultSet18);
+            myStore.Query("SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'BODYSHOP' ", out header19, out resultSet19);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'BODYSHOP' ", out header20, out resultSet20);
 
 
 
-            // For Engineshop
-            myStore21.Query(query21, out header21, out resultSet21);
-            myStore22.Query(query22, out header22, out resultSet22);
-            myStore23.Query(query23, out header23, out resultSet23);
-            myStore24.Query(query24, out header24, out resultSet24);
-            myStore25.Query(query25, out header25, out resultSet25);
+            // For Admin Shop
+            myStore.Query(" UPDATE HomePage SET Target = '" + targetengineshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'ADMIN' ", out header21, out resultSet21);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'ADMIN' ", out header22, out resultSet22);
+            myStore.Query("SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'ADMIN' ", out header23, out resultSet23);
+            myStore.Query("SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'ADMIN' ", out header24, out resultSet24);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'ADMIN' ", out header25, out resultSet25);
 
             // For Paintshop
-            myStore26.Query(query26, out header26, out resultSet26);
-            myStore27.Query(query27, out header27, out resultSet27);
-            myStore28.Query(query28, out header28, out resultSet28);
-            myStore29.Query(query29, out header29, out resultSet29);
-            myStore30.Query(query30, out header30, out resultSet30);
+            myStore.Query(" UPDATE HomePage SET Target = '" + targetpaintshop1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'PAINTSHOP' ", out header26, out resultSet26);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'PAINTSHOP' ", out header27, out resultSet27);
+            myStore.Query("SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'PAINTSHOP' ", out header28, out resultSet28);
+            myStore.Query("SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'PAINTSHOP' ", out header29, out resultSet29);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'PAINTSHOP' ", out header30, out resultSet30);
 
 
             // For Spp
-            myStore31.Query(query31, out header31, out resultSet31);
-            myStore32.Query(query32, out header32, out resultSet32);
-            myStore33.Query(query33, out header33, out resultSet33);
-            myStore34.Query(query34, out header34, out resultSet34);
-            myStore35.Query(query35, out header35, out resultSet35);
+            myStore.Query(" UPDATE HomePage SET Target = '" + targetspp1 + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = 'SPP' ", out header31, out resultSet31);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'SPP' ", out header32, out resultSet32);
+            myStore.Query("SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = 'SPP' ", out header33, out resultSet33);
+            myStore.Query("SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = 'SPP' ", out header34, out resultSet34);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'SPP' ", out header35, out resultSet35);
 
 
             // For Spare
-            myStore36.Query(query36, out header36, out resultSet36);
-            myStore37.Query(query37, out header37, out resultSet37);
-            myStore38.Query(query38, out header38, out resultSet38);
-            myStore39.Query(query39, out header39, out resultSet39);
-            myStore40.Query(query40, out header40, out resultSet40);
+            myStore.Query("SELECT Target FROM ConsumptionDistribution WHERE LocalTimestamp BETWEEN '" + new123 + " 08:00:00' AND '" + new123 + " 07:59:59' AND Jace = 'Utility' ", out header36, out resultSet36);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Utility' ", out header37, out resultSet37);
+            myStore.Query("SELECT MIN(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'Utility' ", out header38, out resultSet38);
+            myStore.Query("SELECT AVG(Consumption) FROM ConsumptionDistribution WHERE MonthYear = '" + month123 + "' AND Jace = 'Utility' ", out header39, out resultSet39);
+            myStore.Query("SELECT Consumption FROM ConsumptionDistribution WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = 'Utility' ", out header40, out resultSet40);
 
 
 
             // For 33KV
-            myStore41.Query(query41, out header41, out resultSet41);
-            myStore42.Query(query42, out header42, out resultSet42);
-            myStore43.Query(query43, out header43, out resultSet43);
-            myStore44.Query(query44, out header44, out resultSet44);
-            myStore45.Query(query45, out header45, out resultSet45);
+            myStore.Query(" UPDATE HomePage SET Target = '" + target33KV + "' WHERE LocalTimestamp BETWEEN '" + new123 + " 0:00:00' AND '" + new123 + " 23:59:59' AND Jace = '33KV' ", out header41, out resultSet41);
+            myStore.Query("SELECT Active_Power_Total FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '33KV' ", out header42, out resultSet42);
+            myStore.Query("SELECT MIN(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = '33KV' ", out header43, out resultSet43);
+            myStore.Query("SELECT AVG(Consumption) FROM DailyJaceDataLogger WHERE MonthYear  = '" + month123 + "' AND Jace = '33KV' ", out header44, out resultSet44);
+            myStore.Query("SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '33KV' ", out header45, out resultSet45);
 
-            myStore46.Query(query46, out header46, out resultSet46);
-            myStore47.Query(query47, out header47, out resultSet47);/////////////////For Production Count/////////////////////
+            myStore.Query(" UPDATE HomePage SET Production = '" + productioncount1 + "' WHERE LocalTimestamp BETWEEN '" + old123 + " 0:00:00' AND '" + old123 + " 23:59:59' ", out header46, out resultSet46);
+            myStore.Query("SELECT SUM(Consumption) FROM DailyJaceDataLogger WHERE MonthYear = '" + month123 + "' AND Jace = '33KV' ", out header47, out resultSet47);/////////////////For Production Count/////////////////////
 
             ////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
 
@@ -1216,7 +1043,7 @@ public class HomePageComparisionLogic : BaseNetLogic
             sparepercentage = spareP;
             spppercentage = sppP;
 
-        }
+       // }
 
         /////////////////////////////////////////////////////*********************************************///////////////////////////////////////////////////////////////////////////
         monthyearVariable.Value = monthyear;
