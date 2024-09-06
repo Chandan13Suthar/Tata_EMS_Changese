@@ -2660,7 +2660,7 @@ Children:
                     - Name: NewPanel
                       Type: BaseDataVariableType
                       DataType: NodeId
-                      Value: "/Objects/Tata_EMS_Changese/UI/NavigationSystem/Data_Log"
+                      Value: {"IdType":2,"Id":"e5714b9f7942377381cbe550b9aca91d","Namespace":36}
                     - Name: AliasNode
                       Type: BaseDataVariableType
                       DataType: NodeId
